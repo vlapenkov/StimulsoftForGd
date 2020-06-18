@@ -1,0 +1,1053 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <payments Ref="2" type="Stimulsoft.Report.Dictionary.StiJsonDatabase" isKey="true">
+        <Alias>payments</Alias>
+        <Key />
+        <Name>payments</Name>
+        <PathData>http://localhost:5000/fake?sDate={sDate.ToString("yyyy-MM-dd")}</PathData>
+      </payments>
+    </Databases>
+    <DataSources isList="true" count="8">
+      <Customers Ref="3" type="DataTableSource" isKey="true">
+        <Alias>Customers</Alias>
+        <Columns isList="true" count="7">
+          <value>data,System.String</value>
+          <value>id,System.Decimal</value>
+          <value>name,System.String</value>
+          <value>nodeItems,System.String</value>
+          <value>nodeType,System.String</value>
+          <value>parent,System.String</value>
+          <value>parentId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>29d23931166e4caa8342c45d32207920</Key>
+        <Name>Customers</Name>
+        <NameInSource>payments.root</NameInSource>
+      </Customers>
+      <Customers_data Ref="4" type="DataTableSource" isKey="true">
+        <Alias>Customers_data</Alias>
+        <Columns isList="true" count="4">
+          <value>accrualsSum,System.Decimal</value>
+          <value>paymentsSum,System.Decimal</value>
+          <value>relationId,System.String</value>
+          <value>restSum,System.Decimal</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>3f7a6d364e094f91bda26f677a4b8929</Key>
+        <Name>Customers_data</Name>
+        <NameInSource>payments.root_data</NameInSource>
+      </Customers_data>
+      <Suppliers Ref="5" type="DataTableSource" isKey="true">
+        <Alias>Suppliers</Alias>
+        <Columns isList="true" count="8">
+          <value>data,System.String</value>
+          <value>id,System.Decimal</value>
+          <value>name,System.String</value>
+          <value>nodeItems,System.String</value>
+          <value>nodeType,System.String</value>
+          <value>parent,System.String</value>
+          <value>parentId,System.String</value>
+          <value>relationId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>cd1ae5c656fa4b7cb000f540a36ab0c1</Key>
+        <Name>Suppliers</Name>
+        <NameInSource>payments.root_nodeItems</NameInSource>
+      </Suppliers>
+      <Suppliers_data Ref="6" type="DataTableSource" isKey="true">
+        <Alias>Suppliers_data</Alias>
+        <Columns isList="true" count="4">
+          <value>accrualsSum,System.Decimal</value>
+          <value>paymentsSum,System.Decimal</value>
+          <value>relationId,System.String</value>
+          <value>restSum,System.Decimal</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>68389ff17f2649a58f969b48186bed5f</Key>
+        <Name>Suppliers_data</Name>
+        <NameInSource>payments.root_nodeItems_data</NameInSource>
+      </Suppliers_data>
+      <Contracts Ref="7" type="DataTableSource" isKey="true">
+        <Alias>Contracts</Alias>
+        <Columns isList="true" count="8">
+          <value>data,System.String</value>
+          <value>id,System.Decimal</value>
+          <value>name,System.String</value>
+          <value>nodeItems,System.String</value>
+          <value>nodeType,System.String</value>
+          <value>parent,System.String</value>
+          <value>parentId,System.String</value>
+          <value>relationId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>76d74cd8557c4f7c98bafc3adf860f98</Key>
+        <Name>Contracts</Name>
+        <NameInSource>payments.root_nodeItems_nodeItems</NameInSource>
+      </Contracts>
+      <Contracts_data Ref="8" type="DataTableSource" isKey="true">
+        <Alias>Contracts_data</Alias>
+        <Columns isList="true" count="4">
+          <value>accrualsSum,System.Decimal</value>
+          <value>paymentsSum,System.Decimal</value>
+          <value>relationId,System.String</value>
+          <value>restSum,System.Decimal</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>6259d0b9ef21410fb7f40219e4c45316</Key>
+        <Name>Contracts_data</Name>
+        <NameInSource>payments.root_nodeItems_nodeItems_data</NameInSource>
+      </Contracts_data>
+      <Regions Ref="9" type="DataTableSource" isKey="true">
+        <Alias>Regions</Alias>
+        <Columns isList="true" count="8">
+          <value>data,System.String</value>
+          <value>id,System.Decimal</value>
+          <value>name,System.String</value>
+          <value>nodeItems,System.String</value>
+          <value>nodeType,System.String</value>
+          <value>parent,System.String</value>
+          <value>parentId,System.Decimal</value>
+          <value>relationId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>5804438410ef40fe8232dda5a867a4b4</Key>
+        <Name>Regions</Name>
+        <NameInSource>payments.root_nodeItems_nodeItems_nodeItems</NameInSource>
+      </Regions>
+      <Regions_data Ref="10" type="DataTableSource" isKey="true">
+        <Alias>Regions_data</Alias>
+        <Columns isList="true" count="4">
+          <value>accrualsSum,System.Decimal</value>
+          <value>paymentsSum,System.Decimal</value>
+          <value>relationId,System.String</value>
+          <value>restSum,System.Decimal</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>353fd9ba0d5b4c6a8354861e22f538da</Key>
+        <Name>Regions_data</Name>
+        <NameInSource>payments.root_nodeItems_nodeItems_nodeItems_data</NameInSource>
+      </Regions_data>
+    </DataSources>
+    <Relations isList="true" count="7">
+      <root Ref="11" type="DataRelation" isKey="true">
+        <Alias>root</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>root</Name>
+        <NameInSource>root_data</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>data</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </root>
+      <root Ref="12" type="DataRelation" isKey="true">
+        <Alias>root</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>root</Name>
+        <NameInSource>root_nodeItems</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>nodeItems</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </root>
+      <root_nodeItems Ref="13" type="DataRelation" isKey="true">
+        <Alias>root_nodeItems</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>root_nodeItems</Name>
+        <NameInSource>root_nodeItems_data</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>data</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </root_nodeItems>
+      <root_nodeItems Ref="14" type="DataRelation" isKey="true">
+        <Alias>root_nodeItems</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Name>root_nodeItems</Name>
+        <NameInSource>root_nodeItems_nodeItems</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>nodeItems</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </root_nodeItems>
+      <root_nodeItems_nodeItems Ref="15" type="DataRelation" isKey="true">
+        <Alias>root_nodeItems_nodeItems</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="8" />
+        <Dictionary isRef="1" />
+        <Name>root_nodeItems_nodeItems</Name>
+        <NameInSource>root_nodeItems_nodeItems_data</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>data</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+      </root_nodeItems_nodeItems>
+      <root_nodeItems_nodeItems Ref="16" type="DataRelation" isKey="true">
+        <Alias>root_nodeItems_nodeItems</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="9" />
+        <Dictionary isRef="1" />
+        <Name>root_nodeItems_nodeItems</Name>
+        <NameInSource>root_nodeItems_nodeItems_nodeItems</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>nodeItems</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+      </root_nodeItems_nodeItems>
+      <root_nodeItems_nodeItems_nodeItems Ref="17" type="DataRelation" isKey="true">
+        <Alias>root_nodeItems_nodeItems_nodeItems</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="10" />
+        <Dictionary isRef="1" />
+        <Name>root_nodeItems_nodeItems_nodeItems</Name>
+        <NameInSource>root_nodeItems_nodeItems_nodeItems_data</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>data</value>
+        </ParentColumns>
+        <ParentSource isRef="9" />
+      </root_nodeItems_nodeItems_nodeItems>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="1">
+      <value>,sDate,Дата_x0020_отчета,Дата_x0020_отчета,System.DateTime,_x0036__x002F_1_x002F_2020_x0020_4:09:59_x0020_PM,False,False,True,False</value>    
+    </Variables>
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>4611d7e1c26f4f8ea07a1077dc29e68e</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="18" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="10">
+        <PageHeaderBand1 Ref="19" type="PageHeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19.01,0.8</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text1 Ref="20" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.2,0.4,2.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>54cf922093444a318ac1d2d551354a5a</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="18" />
+              <Parent isRef="19" />
+              <Text>Начислено</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text2 Ref="21" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.2,0.4,2.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>2006e48ceee4468686faf219b569c827</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="18" />
+              <Parent isRef="19" />
+              <Text>Оплачено</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text3 Ref="22" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.2,0.4,2.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>024a684fb2e945be8ffa13531c6b1b5a</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="18" />
+              <Parent isRef="19" />
+              <Text>Задолженность</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageHeaderBand1</Name>
+          <Page isRef="18" />
+          <Parent isRef="18" />
+          <PrintOn>ExceptFirstPage</PrintOn>
+        </PageHeaderBand1>
+        <ReportTitle Ref="23" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2,19.01,3</ClientRectangle>
+          <Components isList="true" count="4">
+            <ReportTitleText Ref="24" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19.01,1.4</ClientRectangle>
+              <ComponentStyle>Синий 100%_Заголовок_Отчета1</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,14,Bold</Font>
+              <Guid>5ac9db1f788d42c28b6e824d62017841</Guid>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>ReportTitleText</Name>
+              <Page isRef="18" />
+              <Parent isRef="23" />
+              <Text>Отчет по расчетам за месяц: {sDate.ToString("MMMM") } {sDate.Year}</Text>
+              <TextBrush>[69:98:135]</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </ReportTitleText>
+            <Text4 Ref="25" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>10.2,2.4,2.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>9fee3a3548064884934de6ecb354b8db</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="18" />
+              <Parent isRef="23" />
+              <Text>Начислено</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text5 Ref="26" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>13.2,2.4,2.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>8aa312eae53a4817a9984e3b9dce4163</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="18" />
+              <Parent isRef="23" />
+              <Text>Оплачено</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text6 Ref="27" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <ClientRectangle>16.2,2.4,2.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Guid>f902aaf9cc284e03aef61cedc5112460</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="18" />
+              <Parent isRef="23" />
+              <Text>Задолженность</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>ReportTitle</Name>
+          <Page isRef="18" />
+          <Parent isRef="18" />
+        </ReportTitle>
+        <DataCustomers Ref="28" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,5.8,19.01,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataSourceName>Customers</DataSourceName>         
+          <Filters isList="true" count="0" />
+          <Name>DataCustomers</Name>         
+          <Page isRef="18" />
+          <Parent isRef="18" />
+          <Sort isList="true" count="0" />
+        </DataCustomers>
+        <DataCustomers_data Ref="29" type="DataBand" isKey="true">
+          <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+          <Brush>[156:195:229]</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,6.6,19.01,0.6</ClientRectangle>
+          <Components isList="true" count="4">
+            <DataTextCustomers_data1 Ref="30" type="Text" isKey="true">
+              <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[156:195:229]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10.2,0,2.6,0.6</ClientRectangle>
+              <ComponentStyle>Стиль Customers</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>b96f02a696be49d8aab4156f666fcff2</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextCustomers_data1</Name>
+              <Page isRef="18" />
+              <Parent isRef="29" />
+              <Text>{Customers_data.accrualsSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="31" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextCustomers_data1>
+            <DataTextCustomers_data2 Ref="32" type="Text" isKey="true">
+              <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[156:195:229]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>12.8,0,3,0.6</ClientRectangle>
+              <ComponentStyle>Стиль Customers</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>a8fe735956f9493e9ddf4b38b0cba102</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextCustomers_data2</Name>
+              <Page isRef="18" />
+              <Parent isRef="29" />
+              <Text>{Customers_data.paymentsSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="33" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextCustomers_data2>
+            <DataTextCustomers_data3 Ref="34" type="Text" isKey="true">
+              <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[156:195:229]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>-0,0,7.6,0.6</ClientRectangle>
+              <ComponentStyle>Стиль Customers</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>558f4b1b91a84c45a14539cd823cc418</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextCustomers_data3</Name>
+              <Page isRef="18" />
+              <Parent isRef="29" />
+              <Text>{Customers_data.root.name}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextCustomers_data3>
+            <DataTextCustomers_data4 Ref="35" type="Text" isKey="true">
+              <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>[156:195:229]</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.8,0,3.2,0.6</ClientRectangle>
+              <ComponentStyle>Стиль Customers</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,9,Bold</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>3697d89ba83f4f72869f07a9cf79a7e0</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextCustomers_data4</Name>
+              <Page isRef="18" />
+              <Parent isRef="29" />
+              <Text>{Customers_data.restSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="36" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextCustomers_data4>
+          </Components>
+          <ComponentStyle>Стиль Customers</ComponentStyle>
+          <Conditions isList="true" count="0" />
+          <DataRelationName>root_data</DataRelationName>
+          <DataSourceName>Customers_data</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="28" />
+          <Name>DataCustomers_data</Name>
+          <Page isRef="18" />
+          <Parent isRef="18" />
+          <Sort isList="true" count="0" />
+        </DataCustomers_data>
+        <DataSuppliers Ref="37" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,8,19.01,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName>root_nodeItems</DataRelationName>
+          <DataSourceName>Suppliers</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="28" />
+          <Name>DataSuppliers</Name>
+          <Page isRef="18" />
+          <Parent isRef="18" />
+          <Sort isList="true" count="0" />
+        </DataSuppliers>
+        <DataSuppliers_data Ref="38" type="DataBand" isKey="true">
+          <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+          <Brush>[189:215:238]</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,8.8,19.01,0.6</ClientRectangle>
+          <Components isList="true" count="4">
+            <DataTextSuppliers_data1 Ref="39" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10.2,0,2.6,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>668605a9c74d4ded96ad61e33f91edfd</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextSuppliers_data1</Name>
+              <Page isRef="18" />
+              <Parent isRef="38" />
+              <Text>{Suppliers_data.accrualsSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="40" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextSuppliers_data1>
+            <DataTextSuppliers_data2 Ref="41" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>12.8,0,3,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>c97fb8fbe8d745a587558cd9474d1d61</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextSuppliers_data2</Name>
+              <Page isRef="18" />
+              <Parent isRef="38" />
+              <Text>{Suppliers_data.paymentsSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="42" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextSuppliers_data2>
+            <DataTextSuppliers_data3 Ref="43" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>1.4,0,6.2,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>03783b97209a4f1f984ebecf4a555758</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextSuppliers_data3</Name>
+              <Page isRef="18" />
+              <Parent isRef="38" />
+              <Text>{Suppliers_data.root_nodeItems.name}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextSuppliers_data3>
+            <DataTextSuppliers_data4 Ref="44" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.8,0,3.2,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>78c746ea2b7545a49969553aa7e3a71a</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextSuppliers_data4</Name>
+              <Page isRef="18" />
+              <Parent isRef="38" />
+              <Text>{Suppliers_data.restSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="45" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextSuppliers_data4>
+          </Components>
+          <ComponentStyle>Стиль_Suppliers</ComponentStyle>
+          <Conditions isList="true" count="0" />
+          <DataRelationName>root_nodeItems_data</DataRelationName>
+          <DataSourceName>Suppliers_data</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="37" />
+          <Name>DataSuppliers_data</Name>
+          <Page isRef="18" />
+          <Parent isRef="18" />
+          <Sort isList="true" count="0" />
+        </DataSuppliers_data>
+        <DataContracts Ref="46" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,10.2,19.01,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName>root_nodeItems_nodeItems</DataRelationName>
+          <DataSourceName>Contracts</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="37" />
+          <Name>DataContracts</Name>
+          <Page isRef="18" />
+          <Parent isRef="18" />
+          <Sort isList="true" count="0" />
+        </DataContracts>
+        <DataContracts_data Ref="47" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,11,19.01,0.6</ClientRectangle>
+          <Components isList="true" count="4">
+            <DataTextContracts_data1 Ref="48" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10.2,0,2.6,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>92973b2e8b214946a1ebf044a384d14f</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextContracts_data1</Name>
+              <Page isRef="18" />
+              <Parent isRef="47" />
+              <Text>{Contracts_data.accrualsSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="49" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextContracts_data1>
+            <DataTextContracts_data2 Ref="50" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>12.8,0,3,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>4ad9b53849bc4ce8981bb41090326da9</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextContracts_data2</Name>
+              <Page isRef="18" />
+              <Parent isRef="47" />
+              <Text>{Contracts_data.paymentsSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="51" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextContracts_data2>
+            <DataTextContracts_data3 Ref="52" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.2,0,6.2,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>9f0f57cc866243719b68908c64c40cef</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextContracts_data3</Name>
+              <Page isRef="18" />
+              <Parent isRef="47" />
+              <Text>{Contracts_data.root_nodeItems_nodeItems.name}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextContracts_data3>
+            <DataTextContracts_data4 Ref="53" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.8,0,3.2,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>932f78bee6b64a83968b956c38057c07</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextContracts_data4</Name>
+              <Page isRef="18" />
+              <Parent isRef="47" />
+              <Text>{Contracts_data.restSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="54" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextContracts_data4>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName>root_nodeItems_nodeItems_data</DataRelationName>
+          <DataSourceName>Contracts_data</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="46" />
+          <Name>DataContracts_data</Name>
+          <Page isRef="18" />
+          <Parent isRef="18" />
+          <Sort isList="true" count="0" />
+        </DataContracts_data>
+        <DataRegions Ref="55" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,12.4,19.01,0</ClientRectangle>
+          <Components isList="true" count="0" />
+          <Conditions isList="true" count="0" />
+          <DataRelationName>root_nodeItems_nodeItems_nodeItems</DataRelationName>
+          <DataSourceName>Regions</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="46" />
+          <Name>DataRegions</Name>
+          <Page isRef="18" />
+          <Parent isRef="18" />
+          <Sort isList="true" count="0" />
+        </DataRegions>
+        <DataRegions_data Ref="56" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,13.2,19.01,0.6</ClientRectangle>
+          <Components isList="true" count="4">
+            <DataTextRegions_data1 Ref="57" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>10.2,0,2.6,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>0792c6aa3564435db65a6608f03e917a</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextRegions_data1</Name>
+              <Page isRef="18" />
+              <Parent isRef="56" />
+              <Text>{Regions_data.accrualsSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="58" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextRegions_data1>
+            <DataTextRegions_data2 Ref="59" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>12.8,0,3,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>fd9b261337404f7ebb2d87f64bc1f457</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextRegions_data2</Name>
+              <Page isRef="18" />
+              <Parent isRef="56" />
+              <Text>{Regions_data.paymentsSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="60" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextRegions_data2>
+            <DataTextRegions_data3 Ref="61" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>2.8,0,5.6,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>ce0bdb46f8404c6ebab991bbebed2d9e</Guid>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextRegions_data3</Name>
+              <Page isRef="18" />
+              <Parent isRef="56" />
+              <Text>{Regions_data.root_nodeItems_nodeItems_nodeItems.name}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextRegions_data3>
+            <DataTextRegions_data4 Ref="62" type="Text" isKey="true">
+              <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.8,0,3.2,0.6</ClientRectangle>
+              <ComponentStyle>Синий 100%_Данные2</ComponentStyle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Guid>5dd53ce88e0a4f33ac7c8bd4db48ee79</Guid>
+              <HorAlignment>Right</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextRegions_data4</Name>
+              <Page isRef="18" />
+              <Parent isRef="56" />
+              <Text>{Regions_data.restSum}</Text>
+              <TextBrush>[0:0:0]</TextBrush>
+              <TextFormat Ref="63" type="CurrencyFormat" isKey="true">
+                <DecimalDigits>2</DecimalDigits>
+                <DecimalSeparator>,</DecimalSeparator>
+                <GroupSeparator> </GroupSeparator>
+                <NegativePattern>8</NegativePattern>
+                <PositivePattern>3</PositivePattern>
+                <Symbol>₽</Symbol>
+              </TextFormat>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextRegions_data4>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName>root_nodeItems_nodeItems_nodeItems_data</DataRelationName>
+          <DataSourceName>Regions_data</DataSourceName>
+          <Filters isList="true" count="0" />
+          <MasterComponent isRef="55" />
+          <Name>DataRegions_data</Name>
+          <Page isRef="18" />
+          <Parent isRef="18" />
+          <Sort isList="true" count="0" />
+        </DataRegions_data>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>051101b1d0ab42d7be2d586f7965d13b</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.69</PageHeight>
+      <PageWidth>21.01</PageWidth>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>6/1/2020 12:18:41 PM</ReportChanged>
+  <ReportCreated>6/1/2020 12:18:41 PM</ReportCreated>
+  <ReportFile>Report-latest.mrt</ReportFile>
+  <ReportGuid>6818c2540f2c464d9b986a00d1b7e581</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2020.1.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="29">
+   <Синий_x0020_100_x0025__Заголовок_Отчета1 Ref="64" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[0:0:35];1;Solid;False;4;[0:0:0]</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Синий 100%</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item52 Ref="65" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image, CheckBox</ComponentType>
+          <Placement>ReportTitle</Placement>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item52>
+      </Conditions>
+      <Font>Arial,14,Bold</Font>
+      <Name>Синий 100%_Заголовок_Отчета1</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[69:98:135]</TextBrush>
+    </Синий_x0020_100_x0025__Заголовок_Отчета1>
+    <Синий_x0020_100_x0025__Данные2 Ref="100" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[0:0:35];1;Solid;False;4;Black;True</Border>
+      <Brush>Transparent</Brush>
+      <CollectionName>Синий 100%</CollectionName>
+      <Conditions isList="true" count="1">
+        <Item88 Ref="101" type="Stimulsoft.Report.StiStyleCondition" isKey="true">
+          <ComponentType>Text, Primitive, Image, CheckBox</ComponentType>
+          <Placement>Data</Placement>
+          <PlacementNestedLevel>2</PlacementNestedLevel>
+          <Type>ComponentType, Placement, PlacementNestedLevel</Type>
+        </Item88>
+      </Conditions>
+      <Font>Arial,8</Font>
+      <Name>Синий 100%_Данные2</Name>
+      <NegativeTextBrush>Red</NegativeTextBrush>
+      <TextBrush>[0:0:0]</TextBrush>
+    </Синий_x0020_100_x0025__Данные2>
+    <Стиль_x0020_Customers Ref="118" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+      <Brush>[156:195:229]</Brush>
+      <CollectionName>Синий 100%</CollectionName>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,9,Bold</Font>
+      <Name>Стиль Customers</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[0:0:0]</TextBrush>
+    </Стиль_x0020_Customers>
+    <Стиль_Suppliers Ref="119" type="Stimulsoft.Report.StiStyle" isKey="true">
+      <Border>None;[0:0:0];1;Solid;False;4;[0:0:0]</Border>
+      <Brush>[189:215:238]</Brush>
+      <Conditions isList="true" count="0" />
+      <Font>Arial,8,Bold</Font>
+      <Name>Стиль_Suppliers</Name>
+      <NegativeTextBrush>[255:0:0]</NegativeTextBrush>
+      <TextBrush>[0:0:0]</TextBrush>
+    </Стиль_Suppliers>
+  </Styles>
+</StiSerializer>

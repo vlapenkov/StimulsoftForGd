@@ -1,0 +1,65 @@
+[ 
+  {
+    "$id": "805",
+    "id": 433,
+    "name": "ООО \"Яндекс ДЦ\"",
+    "nodeType": "CustomerDto",
+    "parentId": null,
+    "parent": null,
+    "data": {
+      "$id": "806",
+      "accrualsSum": 35158.71,
+      "paymentsSum": 31486.17,
+      "restSum": 3671.54
+    },
+    "nodeItems": [
+      {
+        "$id": "807",
+        "id": 312,
+        "name": "ООО \"Транснефтьэнерго\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "808",
+          "accrualsSum": 35158.71,
+          "paymentsSum": 31486.17,
+          "restSum": 3671.54
+        },
+        "nodeItems": [
+          {
+            "$id": "809",
+            "id": 1444,
+            "name": "10155394 от 06.12.2017 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "810",
+              "accrualsSum": 35158.71,
+              "paymentsSum": 31486.17,
+              "restSum": 3671.54
+            },
+            "nodeItems": [
+              {
+                "$id": "811",
+                "id": 57,
+                "name": "Рязанская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1444,
+                "parent": null,
+                "data": {
+                  "$id": "812",
+                  "accrualsSum": 35158.71,
+                  "paymentsSum": 31486.17,
+                  "restSum": 3671.54
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]

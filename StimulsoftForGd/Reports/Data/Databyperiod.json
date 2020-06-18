@@ -1,0 +1,1389 @@
+[
+  {
+    "$id": "635",
+    
+    "id": 22,
+    "name": "ООО \"Транснефть - Восток\"",
+    "nodeType": "CustomerDto",
+    "parentId": null,
+    "parent": null,
+    "data": {
+      "$id": "636",
+      "accrualsSum": -99.69,
+      "paymentsSum": 55.34,
+      "restSum": -334.03
+    },
+    "nodeItems": [
+      {
+        "$id": "637",
+        "id": 304,
+        "name": "ООО \"РУСЭНЕРГОРЕСУРС\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "638",
+          "accrualsSum": -234.76,
+          "paymentsSum": 234.03,
+          "restSum": -234.79
+        },
+        "nodeItems": [
+          {
+            "$id": "639",
+            "id": 14,
+            "name": "ДП-13 от 22.11.2007 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "640",
+              "accrualsSum": -546.76,
+              "paymentsSum": 456.03,
+              "restSum": -345.79
+            },
+            "nodeItems": [
+              {
+                "$id": "641",
+                "id": 1,
+                "name": "Амурская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 14,
+                "parent": null,
+                "data": {
+                  "$id": "642",
+                  "accrualsSum": 345.43,
+                  "paymentsSum": 5.04,
+                  "restSum": -345.61
+                },
+                "nodeItems": []
+              },
+              {
+                "$id": "643",
+                "id": 8,
+                "name": "Иркутская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 14,
+                "parent": null,
+                "data": {
+                  "$id": "644",
+                  "accrualsSum": -747.94,
+                  "paymentsSum": 393.44,
+                  "restSum": -7865.38
+                },
+                "nodeItems": []
+              },
+              {
+                "$id": "645",
+                "id": 31,
+                "name": "Республика Саха (Якутия)",
+                "nodeType": "RFSubjectDto",
+                "parentId": 14,
+                "parent": null,
+                "data": {
+                  "$id": "646",
+                  "accrualsSum": 2863.75,
+                  "paymentsSum": 299.55,
+                  "restSum": -127.8
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "647",
+        "id": 286,
+        "name": "ООО \"Русэнергосбыт\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "648",
+          "accrualsSum": 54577.45,
+          "paymentsSum": 0.0,
+          "restSum": 54577.45
+        },
+        "nodeItems": [
+          {
+            "$id": "649",
+            "id": 74,
+            "name": "44/011 от 01.01.2012 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "650",
+              "accrualsSum": 12770.59,
+              "paymentsSum": 0.0,
+              "restSum": 12770.59
+            },
+            "nodeItems": [
+              {
+                "$id": "651",
+                "id": 8,
+                "name": "Иркутская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 74,
+                "parent": null,
+                "data": {
+                  "$id": "652",
+                  "accrualsSum": 12770.59,
+                  "paymentsSum": 0.0,
+                  "restSum": 12770.59
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "653",
+            "id": 77,
+            "name": "47/071 от 01.01.2012 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "654",
+              "accrualsSum": 34352.56,
+              "paymentsSum": 0.0,
+              "restSum": 34352.56
+            },
+            "nodeItems": [
+              {
+                "$id": "655",
+                "id": 8,
+                "name": "Иркутская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 77,
+                "parent": null,
+                "data": {
+                  "$id": "656",
+                  "accrualsSum": 34352.56,
+                  "paymentsSum": 0.0,
+                  "restSum": 34352.56
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "657",
+            "id": 99,
+            "name": "48/006 от 01.01.2012 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "658",
+              "accrualsSum": 0.0,
+              "paymentsSum": 0.0,
+              "restSum": 0.0
+            },
+            "nodeItems": [
+              {
+                "$id": "659",
+                "id": 8,
+                "name": "Иркутская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 99,
+                "parent": null,
+                "data": {
+                  "$id": "660",
+                  "accrualsSum": 0.0,
+                  "paymentsSum": 0.0,
+                  "restSum": 0.0
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "661",
+            "id": 946,
+            "name": "1/09052/01/14/173 от 01.07.2014 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "662",
+              "accrualsSum": 3978.92,
+              "paymentsSum": 0.0,
+              "restSum": 3978.92
+            },
+            "nodeItems": [
+              {
+                "$id": "663",
+                "id": 8,
+                "name": "Иркутская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 946,
+                "parent": null,
+                "data": {
+                  "$id": "664",
+                  "accrualsSum": 3978.92,
+                  "paymentsSum": 0.0,
+                  "restSum": 3978.92
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "665",
+            "id": 1285,
+            "name": "1/09030/01/16/121 от 01.09.2016 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "666",
+              "accrualsSum": 3475.38,
+              "paymentsSum": 0.0,
+              "restSum": 3475.38
+            },
+            "nodeItems": [
+              {
+                "$id": "667",
+                "id": 8,
+                "name": "Иркутская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1285,
+                "parent": null,
+                "data": {
+                  "$id": "668",
+                  "accrualsSum": 3475.38,
+                  "paymentsSum": 0.0,
+                  "restSum": 3475.38
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "669",
+        "id": 336,
+        "name": "ПАО \"ДЭК\" филиал \"Амурэнергосбыт\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "670",
+          "accrualsSum": 184265.04,
+          "paymentsSum": 0.0,
+          "restSum": 184265.04
+        },
+        "nodeItems": [
+          {
+            "$id": "671",
+            "id": 83,
+            "name": "СКООЭ0003508 от 01.09.2011 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "672",
+              "accrualsSum": 1842.04,
+              "paymentsSum": 0.0,
+              "restSum": 184265.04
+            },
+            "nodeItems": [
+              {
+                "$id": "673",
+                "id": 1,
+                "name": "Амурская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 83,
+                "parent": null,
+                "data": {
+                  "$id": "674",
+                  "accrualsSum": 1842.04,
+                  "paymentsSum": 0.0,
+                  "restSum": 184265.04
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "675",
+        "id": 316,
+        "name": "ООО \"Иркутскэнергосбыт\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "676",
+          "accrualsSum": 1453.47,
+          "paymentsSum": 0.0,
+          "restSum": 1453.47
+        },
+        "nodeItems": [
+          {
+            "$id": "677",
+            "id": 253,
+            "name": "4150 от 01.02.2011 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "678",
+              "accrualsSum": 1033.83,
+              "paymentsSum": 0.0,
+              "restSum": 1033.83
+            },
+            "nodeItems": [
+              {
+                "$id": "679",
+                "id": 8,
+                "name": "Иркутская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 253,
+                "parent": null,
+                "data": {
+                  "$id": "680",
+                  "accrualsSum": 1033.83,
+                  "paymentsSum": 0.0,
+                  "restSum": 1033.83
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "681",
+            "id": 352,
+            "name": "421 от 01.01.2013 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "682",
+              "accrualsSum": 419.64,
+              "paymentsSum": 0.0,
+              "restSum": 419.64
+            },
+            "nodeItems": [
+              {
+                "$id": "683",
+                "id": 8,
+                "name": "Иркутская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 352,
+                "parent": null,
+                "data": {
+                  "$id": "684",
+                  "accrualsSum": 419.64,
+                  "paymentsSum": 0.0,
+                  "restSum": 419.64
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "685",
+        "id": 37,
+        "name": "ОАО \"Сургутнефтегаз\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "686",
+          "accrualsSum": 70646.8,
+          "paymentsSum": 0.0,
+          "restSum": 70646.8
+        },
+        "nodeItems": [
+          {
+            "$id": "687",
+            "id": 285,
+            "name": "1425/19-12-1746 от 25.10.2012 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "688",
+              "accrualsSum": 70646.8,
+              "paymentsSum": 0.0,
+              "restSum": 70646.8
+            },
+            "nodeItems": [
+              {
+                "$id": "689",
+                "id": 31,
+                "name": "Республика Саха (Якутия)",
+                "nodeType": "RFSubjectDto",
+                "parentId": 285,
+                "parent": null,
+                "data": {
+                  "$id": "690",
+                  "accrualsSum": 70646.8,
+                  "paymentsSum": 0.0,
+                  "restSum": 70646.8
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "691",
+        "id": 324,
+        "name": "ПАО \"Якутскэнерго\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "692",
+          "accrualsSum": 449.86,
+          "paymentsSum": 0.0,
+          "restSum": 449.86
+        },
+        "nodeItems": [
+          {
+            "$id": "693",
+            "id": 423,
+            "name": "00168 от 29.03.2013 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "694",
+              "accrualsSum": 449.86,
+              "paymentsSum": 0.0,
+              "restSum": 449.86
+            },
+            "nodeItems": [
+              {
+                "$id": "695",
+                "id": 31,
+                "name": "Республика Саха (Якутия)",
+                "nodeType": "RFSubjectDto",
+                "parentId": 423,
+                "parent": null,
+                "data": {
+                  "$id": "696",
+                  "accrualsSum": 449.86,
+                  "paymentsSum": 0.0,
+                  "restSum": 449.86
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "697",
+        "id": 182,
+        "name": "ПАО \"Красноярскэнергосбыт\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "698",
+          "accrualsSum": 0.0,
+          "paymentsSum": 0.0,
+          "restSum": 0.0
+        },
+        "nodeItems": [
+          {
+            "$id": "699",
+            "id": 1066,
+            "name": "1000007888 от 29.08.2017 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "700",
+              "accrualsSum": 0.0,
+              "paymentsSum": 0.0,
+              "restSum": 0.0
+            },
+            "nodeItems": [
+              {
+                "$id": "701",
+                "id": 12,
+                "name": "Красноярский край",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1066,
+                "parent": null,
+                "data": {
+                  "$id": "702",
+                  "accrualsSum": 0.0,
+                  "paymentsSum": 0.0,
+                  "restSum": 0.0
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "703",
+        "id": 312,
+        "name": "ООО \"Транснефтьэнерго\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "704",
+          "accrualsSum": 268588.45,
+          "paymentsSum": 379275.31,
+          "restSum": -110686.86
+        },
+        "nodeItems": [
+          {
+            "$id": "705",
+            "id": 1134,
+            "name": "ТНЭ-04722 от 28.01.2016 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "706",
+              "accrualsSum": 53873.85,
+              "paymentsSum": 70583.7,
+              "restSum": -16710.85
+            },
+            "nodeItems": [
+              {
+                "$id": "707",
+                "id": 12,
+                "name": "Красноярский край",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1134,
+                "parent": null,
+                "data": {
+                  "$id": "708",
+                  "accrualsSum": 3810.28,
+                  "paymentsSum": 5500.0,
+                  "restSum": -1689.72
+                },
+                "nodeItems": []
+              },
+              {
+                "$id": "709",
+                "id": 8,
+                "name": "Иркутская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1134,
+                "parent": null,
+                "data": {
+                  "$id": "710",
+                  "accrualsSum": 50062.57,
+                  "paymentsSum": 65083.7,
+                  "restSum": -15021.13
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "711",
+            "id": 1186,
+            "name": "ТНЭ-05022 от 22.04.2016 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "712",
+              "accrualsSum": 214715.6,
+              "paymentsSum": 308691.61,
+              "restSum": -93975.01
+            },
+            "nodeItems": [
+              {
+                "$id": "713",
+                "id": 31,
+                "name": "Республика Саха (Якутия)",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1186,
+                "parent": null,
+                "data": {
+                  "$id": "714",
+                  "accrualsSum": 192291.86,
+                  "paymentsSum": 278691.61,
+                  "restSum": -86399.75
+                },
+                "nodeItems": []
+              },
+              {
+                "$id": "715",
+                "id": 1,
+                "name": "Амурская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1186,
+                "parent": null,
+                "data": {
+                  "$id": "716",
+                  "accrualsSum": 22424.74,
+                  "paymentsSum": 30000.0,
+                  "restSum": -7575.26
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "$id": "717",
+    "id": 33,
+    "name": "АО \"Транснефть - Север\"",
+    "nodeType": "CustomerDto",
+    "parentId": null,
+    "parent": null,
+    "data": {
+      "$id": "718",
+      "accrualsSum": 107744872.06,
+      "paymentsSum": 250000.0,
+      "restSum": 107494872.06
+    },
+    "nodeItems": [
+      {
+        "$id": "719",
+        "id": 304,
+        "name": "ООО \"РУСЭНЕРГОРЕСУРС\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "720",
+          "accrualsSum": 105737.14,
+          "paymentsSum": 0.0,
+          "restSum": 105737.14
+        },
+        "nodeItems": [
+          {
+            "$id": "721",
+            "id": 29,
+            "name": "ДП 7-2 от 22.11.2007 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "722",
+              "accrualsSum": 57870.92,
+              "paymentsSum": 0.0,
+              "restSum": 57870.92
+            },
+            "nodeItems": [
+              {
+                "$id": "723",
+                "id": 29,
+                "name": "Республика Коми",
+                "nodeType": "RFSubjectDto",
+                "parentId": 29,
+                "parent": null,
+                "data": {
+                  "$id": "724",
+                  "accrualsSum": 57870.92,
+                  "paymentsSum": 0.0,
+                  "restSum": 57870.92
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "725",
+            "id": 30,
+            "name": "ДП 7-1 от 22.11.2007 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "726",
+              "accrualsSum": 47866.22,
+              "paymentsSum": 0.0,
+              "restSum": 47866.22
+            },
+            "nodeItems": [
+              {
+                "$id": "727",
+                "id": 2,
+                "name": "Архангельская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 30,
+                "parent": null,
+                "data": {
+                  "$id": "728",
+                  "accrualsSum": 4730.94,
+                  "paymentsSum": 0.0,
+                  "restSum": 4730.94
+                },
+                "nodeItems": []
+              },
+              {
+                "$id": "729",
+                "id": 6,
+                "name": "Вологодская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 30,
+                "parent": null,
+                "data": {
+                  "$id": "730",
+                  "accrualsSum": 4313.28,
+                  "paymentsSum": 0.0,
+                  "restSum": 4313.28
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "731",
+        "id": 85,
+        "name": "АО \"Коми энергосбытовая компания\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "732",
+          "accrualsSum": 1197.96,
+          "paymentsSum": 0.0,
+          "restSum": 1197.96
+        },
+        "nodeItems": [
+          {
+            "$id": "733",
+            "id": 173,
+            "name": "318-1 от 06.12.2010 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "734",
+              "accrualsSum": 1109.23,
+              "paymentsSum": 0.0,
+              "restSum": 1109.23
+            },
+            "nodeItems": [
+              {
+                "$id": "735",
+                "id": 29,
+                "name": "Республика Коми",
+                "nodeType": "RFSubjectDto",
+                "parentId": 173,
+                "parent": null,
+                "data": {
+                  "$id": "736",
+                  "accrualsSum": 1109.23,
+                  "paymentsSum": 0.0,
+                  "restSum": 1109.23
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "737",
+            "id": 396,
+            "name": "4003 от 01.01.2008 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "738",
+              "accrualsSum": 0.0,
+              "paymentsSum": 0.0,
+              "restSum": 0.0
+            },
+            "nodeItems": [
+              {
+                "$id": "739",
+                "id": 29,
+                "name": "Республика Коми",
+                "nodeType": "RFSubjectDto",
+                "parentId": 396,
+                "parent": null,
+                "data": {
+                  "$id": "740",
+                  "accrualsSum": 0.0,
+                  "paymentsSum": 0.0,
+                  "restSum": 0.0
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "741",
+            "id": 731,
+            "name": "318-2 от 15.12.2010 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "742",
+              "accrualsSum": 4912.56,
+              "paymentsSum": 0.0,
+              "restSum": 4912.56
+            },
+            "nodeItems": [
+              {
+                "$id": "743",
+                "id": 29,
+                "name": "Республика Коми",
+                "nodeType": "RFSubjectDto",
+                "parentId": 731,
+                "parent": null,
+                "data": {
+                  "$id": "744",
+                  "accrualsSum": 4912.56,
+                  "paymentsSum": 0.0,
+                  "restSum": 4912.56
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "745",
+            "id": 733,
+            "name": "318-3 от 01.01.2010 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "746",
+              "accrualsSum": 9873.22,
+              "paymentsSum": 0.0,
+              "restSum": 9873.22
+            },
+            "nodeItems": [
+              {
+                "$id": "747",
+                "id": 29,
+                "name": "Республика Коми",
+                "nodeType": "RFSubjectDto",
+                "parentId": 733,
+                "parent": null,
+                "data": {
+                  "$id": "748",
+                  "accrualsSum": 9873.22,
+                  "paymentsSum": 0.0,
+                  "restSum": 9873.22
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "749",
+            "id": 735,
+            "name": "178 от 01.11.2005 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "750",
+              "accrualsSum": 10732.04,
+              "paymentsSum": 0.0,
+              "restSum": 10732.04
+            },
+            "nodeItems": [
+              {
+                "$id": "751",
+                "id": 29,
+                "name": "Республика Коми",
+                "nodeType": "RFSubjectDto",
+                "parentId": 735,
+                "parent": null,
+                "data": {
+                  "$id": "752",
+                  "accrualsSum": 10732.04,
+                  "paymentsSum": 0.0,
+                  "restSum": 10732.04
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "753",
+            "id": 1011,
+            "name": "151/0029 от 10.06.2015 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "754",
+              "accrualsSum": 62192.57,
+              "paymentsSum": 0.0,
+              "restSum": 62192.57
+            },
+            "nodeItems": [
+              {
+                "$id": "755",
+                "id": 29,
+                "name": "Республика Коми",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1011,
+                "parent": null,
+                "data": {
+                  "$id": "756",
+                  "accrualsSum": 62.57,
+                  "paymentsSum": 0.0,
+                  "restSum": 62.57
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "757",
+            "id": 1443,
+            "name": "157/6133 от 14.09.2017 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "758",
+              "accrualsSum": 476.34,
+              "paymentsSum": 0.0,
+              "restSum": 476.34
+            },
+            "nodeItems": [
+              {
+                "$id": "759",
+                "id": 29,
+                "name": "Республика Коми",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1443,
+                "parent": null,
+                "data": {
+                  "$id": "760",
+                  "accrualsSum": 476.34,
+                  "paymentsSum": 0.0,
+                  "restSum": 476.34
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "761",
+        "id": 380,
+        "name": "ПАО \"ТНС энерго Ярославль\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "762",
+          "accrualsSum": 181.05,
+          "paymentsSum": 0.0,
+          "restSum": 181.05
+        },
+        "nodeItems": [
+          {
+            "$id": "763",
+            "id": 243,
+            "name": "39 от 13.05.2010 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "764",
+              "accrualsSum": 181.05,
+              "paymentsSum": 0.0,
+              "restSum": 181.05
+            },
+            "nodeItems": [
+              {
+                "$id": "765",
+                "id": 48,
+                "name": "Ярославская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 243,
+                "parent": null,
+                "data": {
+                  "$id": "766",
+                  "accrualsSum": 181.05,
+                  "paymentsSum": 0.0,
+                  "restSum": 181.05
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "767",
+        "id": 312,
+        "name": "ООО \"Транснефтьэнерго\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "768",
+          "accrualsSum": 209544.43,
+          "paymentsSum": 250000.0,
+          "restSum": -40455.57
+        },
+        "nodeItems": [
+          {
+            "$id": "769",
+            "id": 1177,
+            "name": "ТНЭ-04980 от 05.04.2016 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "770",
+              "accrualsSum": 209544.43,
+              "paymentsSum": 250000.0,
+              "restSum": -40455.57
+            },
+            "nodeItems": [
+              {
+                "$id": "771",
+                "id": 29,
+                "name": "Республика Коми",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1177,
+                "parent": null,
+                "data": {
+                  "$id": "772",
+                  "accrualsSum": 209544.43,
+                  "paymentsSum": 250000.0,
+                  "restSum": -40455.57
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "773",
+        "id": 388,
+        "name": "ООО \"ТГК-2 Энергосбыт\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "774",
+          "accrualsSum": 151503.89,
+          "paymentsSum": 0.0,
+          "restSum": 151503.89
+        },
+        "nodeItems": [
+          {
+            "$id": "775",
+            "id": 1533,
+            "name": "13-002475 от 01.10.2018 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "776",
+              "accrualsSum": 1010.92,
+              "paymentsSum": 0.0,
+              "restSum": 1010.92
+            },
+            "nodeItems": [
+              {
+                "$id": "777",
+                "id": 2,
+                "name": "Архангельская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1533,
+                "parent": null,
+                "data": {
+                  "$id": "778",
+                  "accrualsSum": 1010.92,
+                  "paymentsSum": 0.0,
+                  "restSum": 1010.92
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "779",
+            "id": 1534,
+            "name": "13-001890 от 01.10.2018 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "780",
+              "accrualsSum": 29528.99,
+              "paymentsSum": 0.0,
+              "restSum": 29528.99
+            },
+            "nodeItems": [
+              {
+                "$id": "781",
+                "id": 2,
+                "name": "Архангельская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1534,
+                "parent": null,
+                "data": {
+                  "$id": "782",
+                  "accrualsSum": 29528.99,
+                  "paymentsSum": 0.0,
+                  "restSum": 29528.99
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "783",
+            "id": 1536,
+            "name": "13-003049 от 01.10.2018 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "784",
+              "accrualsSum": 557.75,
+              "paymentsSum": 0.0,
+              "restSum": 557.75
+            },
+            "nodeItems": [
+              {
+                "$id": "785",
+                "id": 2,
+                "name": "Архангельская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1536,
+                "parent": null,
+                "data": {
+                  "$id": "786",
+                  "accrualsSum": 557.75,
+                  "paymentsSum": 0.0,
+                  "restSum": 557.75
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "787",
+            "id": 1537,
+            "name": "13-001738 от 01.10.2018 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "788",
+              "accrualsSum": 120.23,
+              "paymentsSum": 0.0,
+              "restSum": 120.23
+            },
+            "nodeItems": [
+              {
+                "$id": "789",
+                "id": 2,
+                "name": "Архангельская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1537,
+                "parent": null,
+                "data": {
+                  "$id": "790",
+                  "accrualsSum": 120.23,
+                  "paymentsSum": 0.0,
+                  "restSum": 120.23
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      },
+      {
+        "$id": "791",
+        "id": 446,
+        "name": "ООО \"ССК\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "792",
+          "accrualsSum": 267.59,
+          "paymentsSum": 0.0,
+          "restSum": 267.59
+        },
+        "nodeItems": [
+          {
+            "$id": "793",
+            "id": 1546,
+            "name": "35010110000108 от 01.01.2019 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "794",
+              "accrualsSum": 5500.18,
+              "paymentsSum": 0.0,
+              "restSum": 5500.18
+            },
+            "nodeItems": [
+              {
+                "$id": "795",
+                "id": 6,
+                "name": "Вологодская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1546,
+                "parent": null,
+                "data": {
+                  "$id": "796",
+                  "accrualsSum": 5500.18,
+                  "paymentsSum": 0.0,
+                  "restSum": 5500.18
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "797",
+            "id": 1547,
+            "name": "35010110000075 от 01.01.2019 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "798",
+              "accrualsSum": 740.26,
+              "paymentsSum": 0.0,
+              "restSum": 740.26
+            },
+            "nodeItems": [
+              {
+                "$id": "799",
+                "id": 6,
+                "name": "Вологодская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1547,
+                "parent": null,
+                "data": {
+                  "$id": "800",
+                  "accrualsSum": 740.26,
+                  "paymentsSum": 0.0,
+                  "restSum": 740.26
+                },
+                "nodeItems": []
+              }
+            ]
+          },
+          {
+            "$id": "801",
+            "id": 1549,
+            "name": "35010110000071 от 01.01.2019 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "802",
+              "accrualsSum": 261097.15,
+              "paymentsSum": 0.0,
+              "restSum": 261097.15
+            },
+            "nodeItems": [
+              {
+                "$id": "803",
+                "id": 6,
+                "name": "Вологодская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1549,
+                "parent": null,
+                "data": {
+                  "$id": "804",
+                  "accrualsSum": 261.15,
+                  "paymentsSum": 0.0,
+                  "restSum": 261.15
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "$id": "805",
+    "id": 433,
+    "name": "ООО \"Яндекс ДЦ\"",
+    "nodeType": "CustomerDto",
+    "parentId": null,
+    "parent": null,
+    "data": {
+      "$id": "806",
+      "accrualsSum": 35158.71,
+      "paymentsSum": 31486.17,
+      "restSum": 3671.54
+    },
+    "nodeItems": [
+      {
+        "$id": "807",
+        "id": 312,
+        "name": "ООО \"Транснефтьэнерго\"",
+        "nodeType": "SupplierDto",
+        "parentId": null,
+        "parent": null,
+        "data": {
+          "$id": "808",
+          "accrualsSum": 35158.71,
+          "paymentsSum": 31486.17,
+          "restSum": 3671.54
+        },
+        "nodeItems": [
+          {
+            "$id": "809",
+            "id": 1444,
+            "name": "10155394 от 06.12.2017 ",
+            "nodeType": "ContractForAccrualsDto",
+            "parentId": null,
+            "parent": null,
+            "data": {
+              "$id": "810",
+              "accrualsSum": 35158.71,
+              "paymentsSum": 31486.17,
+              "restSum": 3671.54
+            },
+            "nodeItems": [
+              {
+                "$id": "811",
+                "id": 57,
+                "name": "Рязанская область",
+                "nodeType": "RFSubjectDto",
+                "parentId": 1444,
+                "parent": null,
+                "data": {
+                  "$id": "812",
+                  "accrualsSum": 35158.71,
+                  "paymentsSum": 31486.17,
+                  "restSum": 3671.54
+                },
+                "nodeItems": []
+              }
+            ]
+          }
+        ]
+      }
+    ]
+  }
+]
