@@ -35,6 +35,16 @@ namespace Edit_Report_in_the_Designer.Controllers
                 return data;
             }
 
-       
+        public IActionResult Xml()
+        {
+
+            var xmlFile=Request.Query["xmlFile"].ToString();
+            var path =  StiNetCoreHelper.MapPath(this, "Reports/Data/"+ xmlFile); 
+            var xml = System.IO.File.ReadAllText(path);
+
+            return Ok(xml);
+        }
+
+
     }
 }

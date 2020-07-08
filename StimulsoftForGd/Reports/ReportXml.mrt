@@ -1,0 +1,298 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <Xml Ref="2" type="Stimulsoft.Report.Dictionary.StiXmlDatabase" isKey="true">
+        <Alias>Xml</Alias>
+        <Key />
+        <Name>Xml</Name>
+        <PathData>http://localhost:5000/Fake/Xml</PathData>
+        <PathSchema />
+        <XmlType>Xml</XmlType>
+      </Xml>
+    </Databases>
+    <DataSources isList="true" count="4">
+      <customers Ref="3" type="DataTableSource" isKey="true">
+        <Alias>customers</Alias>
+        <Columns isList="true" count="1">
+          <value>customer,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>8e238f57a0a7452bbd38cba4716fe85b</Key>
+        <Name>customers</Name>
+        <NameInSource>Xml.customers</NameInSource>
+      </customers>
+      <customers_customer Ref="4" type="DataTableSource" isKey="true">
+        <Alias>customers_customer</Alias>
+        <Columns isList="true" count="5">
+          <value>_x0040_id,System.String</value>
+          <value>name,System.String</value>
+          <value>relationId,System.String</value>
+          <value>sum,System.String</value>
+          <value>supplier,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>fc5f6444cb6c4f72b8bf1b208813f259</Key>
+        <Name>customers_customer</Name>
+        <NameInSource>Xml.customers_customer</NameInSource>
+      </customers_customer>
+      <customers_customer_supplier Ref="5" type="DataTableSource" isKey="true">
+        <Alias>customers_customer_supplier</Alias>
+        <Columns isList="true" count="4">
+          <value>contract,System.String</value>
+          <value>name,System.String</value>
+          <value>relationId,System.String</value>
+          <value>sum,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>16f81dfcd96e4b639d38f8bd01dd3332</Key>
+        <Name>customers_customer_supplier</Name>
+        <NameInSource>Xml.customers_customer_supplier</NameInSource>
+      </customers_customer_supplier>
+      <customers_customer_supplier_contract Ref="6" type="DataTableSource" isKey="true">
+        <Alias>customers_customer_supplier_contract</Alias>
+        <Columns isList="true" count="3">
+          <value>name,System.String</value>
+          <value>relationId,System.String</value>
+          <value>sum,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>7a93cffe969c4f4d863aa70a548dba40</Key>
+        <Name>customers_customer_supplier_contract</Name>
+        <NameInSource>Xml.customers_customer_supplier_contract</NameInSource>
+      </customers_customer_supplier_contract>
+    </DataSources>
+    <Relations isList="true" count="3">
+      <customers Ref="7" type="DataRelation" isKey="true">
+        <Alias>customers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>customers</Name>
+        <NameInSource>customers_customer</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>customer</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </customers>
+      <customers_customer Ref="8" type="DataRelation" isKey="true">
+        <Alias>customers_customer</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>customers_customer</Name>
+        <NameInSource>customers_customer_supplier</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>supplier</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </customers_customer>
+      <customers_customer_supplier Ref="9" type="DataRelation" isKey="true">
+        <Alias>customers_customer_supplier</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>customers_customer_supplier</Name>
+        <NameInSource>customers_customer_supplier_contract</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>contract</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </customers_customer_supplier>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="0" />
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>8d75a0f262834ece9bc4278dc90719b9</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="10" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <ReportTitle Ref="11" type="ReportTitleBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19.01,1.4</ClientRectangle>
+          <Components isList="true" count="1">
+            <ReportTitleText Ref="12" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>0,0,19.01,1.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,20,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>ReportTitleText</Name>
+              <Page isRef="10" />
+              <Parent isRef="11" />
+              <Text>customers, customers_customer, customers_customer_supplier, customers_customer_supplier_contract</Text>
+              <TextBrush>Black</TextBrush>
+              <VertAlignment>Center</VertAlignment>
+            </ReportTitleText>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>ReportTitle</Name>
+          <Page isRef="10" />
+          <Parent isRef="10" />
+        </ReportTitle>
+        <Datacustomers_customer Ref="13" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,2.6,19.01,0.6</ClientRectangle>
+          <Components isList="true" count="5">
+            <DataTextcustomers_customer1 Ref="14" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>0,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextcustomers_customer1</Name>
+              <Page isRef="10" />
+              <Parent isRef="13" />
+              <Text>{customers_customer._id}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextcustomers_customer1>
+            <DataTextcustomers_customer2 Ref="15" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>3.8,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextcustomers_customer2</Name>
+              <Page isRef="10" />
+              <Parent isRef="13" />
+              <Text>{customers_customer.name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextcustomers_customer2>
+            <DataTextcustomers_customer3 Ref="16" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>7.6,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextcustomers_customer3</Name>
+              <Page isRef="10" />
+              <Parent isRef="13" />
+              <Text>{customers_customer.relationId}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextcustomers_customer3>
+            <DataTextcustomers_customer4 Ref="17" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>11.4,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextcustomers_customer4</Name>
+              <Page isRef="10" />
+              <Parent isRef="13" />
+              <Text>{customers_customer.sum}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextcustomers_customer4>
+            <DataTextcustomers_customer5 Ref="18" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <CanGrow>True</CanGrow>
+              <ClientRectangle>15.2,0,3.8,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <GrowToHeight>True</GrowToHeight>
+              <Margins>0,0,0,0</Margins>
+              <Name>DataTextcustomers_customer5</Name>
+              <Page isRef="10" />
+              <Parent isRef="13" />
+              <Text>{customers_customer.supplier}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <TextQuality>Wysiwyg</TextQuality>
+              <VertAlignment>Center</VertAlignment>
+            </DataTextcustomers_customer5>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName>customers_customer</DataRelationName>
+          <DataSourceName>customers_customer</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>Datacustomers_customer</Name>
+          <Page isRef="10" />
+          <Parent isRef="10" />
+          <Sort isList="true" count="0" />
+        </Datacustomers_customer>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>926bae3c27044ac4a519ac5b40116c51</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.69</PageHeight>
+      <PageWidth>21.01</PageWidth>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>6/19/2020 4:05:03 PM</ReportChanged>
+  <ReportCreated>6/19/2020 4:05:03 PM</ReportCreated>
+  <ReportGuid>5d7b6f832d5b4a7ea4012b33510e9e63</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2020.3.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+        #endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

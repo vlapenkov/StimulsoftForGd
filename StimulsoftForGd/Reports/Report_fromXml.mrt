@@ -1,0 +1,209 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <XML Ref="2" type="Stimulsoft.Report.Dictionary.StiXmlDatabase" isKey="true">
+        <Alias>XML</Alias>
+        <Key />
+        <Name>XML</Name>
+        <!--<PathData>resource://XMLFile</PathData> -->
+        <PathData>http://localhost:5000/Fake/Xml?xmlFile={xmlFile}</PathData>
+        <PathSchema />
+        <XmlType>Xml</XmlType>
+      </XML>
+    </Databases>
+    <DataSources isList="true" count="4">
+      <customers Ref="3" type="DataTableSource" isKey="true">
+        <Alias>customers</Alias>
+        <Columns isList="true" count="1">
+          <value>customer,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>4bf618a8cdc149b4b7072413d66836f1</Key>
+        <Name>customers</Name>
+        <NameInSource>XML.customers</NameInSource>
+      </customers>
+      <customers_customer Ref="4" type="DataTableSource" isKey="true">
+        <Alias>customers_customer</Alias>
+        <Columns isList="true" count="5">
+          <value>_x0040_id,System.String</value>
+          <value>name,System.String</value>
+          <value>relationId,System.String</value>
+          <value>sum,System.String</value>
+          <value>supplier,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>7ff5c5388ecd4510b6c237b33fe7deea</Key>
+        <Name>customers_customer</Name>
+        <NameInSource>XML.customers_customer</NameInSource>
+      </customers_customer>
+      <customers_customer_supplier Ref="5" type="DataTableSource" isKey="true">
+        <Alias>customers_customer_supplier</Alias>
+        <Columns isList="true" count="4">
+          <value>contract,System.String</value>
+          <value>name,System.String</value>
+          <value>relationId,System.String</value>
+          <value>sum,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>75ac9a040aa84226af76714f3ff56940</Key>
+        <Name>customers_customer_supplier</Name>
+        <NameInSource>XML.customers_customer_supplier</NameInSource>
+      </customers_customer_supplier>
+      <customers_customer_supplier_contract Ref="6" type="DataTableSource" isKey="true">
+        <Alias>customers_customer_supplier_contract</Alias>
+        <Columns isList="true" count="3">
+          <value>name,System.String</value>
+          <value>relationId,System.String</value>
+          <value>sum,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>f57afc5f28f545f4a08c78634b57cc0f</Key>
+        <Name>customers_customer_supplier_contract</Name>
+        <NameInSource>XML.customers_customer_supplier_contract</NameInSource>
+      </customers_customer_supplier_contract>
+    </DataSources>
+    <Relations isList="true" count="3">
+      <customers Ref="7" type="DataRelation" isKey="true">
+        <Alias>customers</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="4" />
+        <Dictionary isRef="1" />
+        <Name>customers</Name>
+        <NameInSource>customers_customer</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>customer</value>
+        </ParentColumns>
+        <ParentSource isRef="3" />
+      </customers>
+      <customers_customer Ref="8" type="DataRelation" isKey="true">
+        <Alias>customers_customer</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Name>customers_customer</Name>
+        <NameInSource>customers_customer_supplier</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>supplier</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </customers_customer>
+      <customers_customer_supplier Ref="9" type="DataRelation" isKey="true">
+        <Alias>customers_customer_supplier</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Name>customers_customer_supplier</Name>
+        <NameInSource>customers_customer_supplier_contract</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>contract</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </customers_customer_supplier>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <!--<value>Name=XMLFile, Alias=XMLFile, Type=Xml, Content=LVz6dJUkPDUsQUrmlcKzroxKKomeIiR1TDjB1rJ_x002F_8pNLa6slrixS1jYer_x002F_cseuLaJypM86Czl9hI42RDKWmDlpxifRnbuuaipV5UukaeABjkP6Ir_x002B_Mp4mFHIcUU815tJMFDXeD_x002F_XraAn_x002F_WePC06_x002F_gIcbBbuvmNOK_x002B_IPyFbFEgYKft9DOZV0VokmSnIErfasJFq0t32rBipFLOBJEfzr8usMQ2ynWVWq6Pf0E1xHdEXTmESkeMl28zuMo6nYaY33AwBo8VtLtzY2qIpEVqJIHkP8_x002B_5BRsTfPN3Dxprf8xVlF1MJMu4DpwSRvVSkHByqi6Wwq78700YXq5yiuK</value> -->
+    </Resources>
+    <!--<Variables isList="true" count="0" />-->
+    <Variables isList="true" count="1">
+      <value>,xmlFile,xmlFile,xmlFile,System.String,XmlFile.xml,False,False,False,False</value>
+    </Variables>
+
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>c8c9663ef5e5487596e1a1667bd720eb</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="1">
+    <Page1 Ref="10" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="1">
+        <DataBand1 Ref="11" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,19,1.4</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text1 Ref="12" type="Text" isKey="true">
+              <Brush>Transparent</Brush>
+              <ClientRectangle>1.2,0.6,2.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="10" />
+              <Parent isRef="11" />
+              <Text>{customers_customer.name}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+            </Text1>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>customers_customer</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="10" />
+          <Parent isRef="10" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>fbeff80d8f744456bef59a9b1200d79d</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>21</PageWidth>
+      <Report isRef="0" />
+    </Page1>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>7/8/2020 11:27:11 AM</ReportChanged>
+  <ReportCreated>7/8/2020 11:27:11 AM</ReportCreated>
+  <ReportGuid>74cd95a09e5347de8bbc20dc55fd7e1f</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2020.3.1.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+        #endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>

@@ -21,6 +21,7 @@ namespace Edit_Report_in_the_Designer.Controllers
 {
     public class MyDesignerController : Controller
     {
+     
         public async Task<IActionResult> Index()
         {
 
@@ -36,9 +37,10 @@ namespace Edit_Report_in_the_Designer.Controllers
             StiReport report = new StiReport();
 
 
-            report.Load(StiNetCoreHelper.MapPath(this, "Reports/payments-preset.mrt"));
-                        
-              
+          //  report.Load(StiNetCoreHelper.MapPath(this, "Reports/payments-preset.mrt"));
+            report.Load(StiNetCoreHelper.MapPath(this, "Reports/Report_fromXml.mrt"));
+
+
             return StiNetCoreDesigner.GetReportResult(this, report);
 
         }
@@ -46,7 +48,7 @@ namespace Edit_Report_in_the_Designer.Controllers
 
         public IActionResult PreviewReport()
         {
-
+           
             StiReport report = StiNetCoreDesigner.GetActionReportObject(this);
            
 
@@ -65,5 +67,24 @@ namespace Edit_Report_in_the_Designer.Controllers
 
             return StiNetCoreDesigner.DesignerEventResult(this);
         }
+
+        public ActionResult SaveReportAs(string fileName)
+        {
+
+            StiReport report = StiNetCoreDesigner.GetReportObject(this);
+
+            var requestParams = StiNetCoreDesigner.GetRequestParams(this);
+
+            var reportName = requestParams.Designer.FileName;
+            
+            string json = report.SaveToString();
+
+            // Completion of the report saving with message dialog box
+
+            return StiNetCoreDesigner.SaveReportResult(this, "Some message after saving");
+        }
+
+
+
     }
 }

@@ -22,12 +22,21 @@ namespace Edit_Report_in_the_Designer.Controllers
 
         public IActionResult GetReport()
         {
-           
-
-
             StiReport report = new StiReport();
-            report.Load(StiNetCoreHelper.MapPath(this, "Reports/payments-preset.mrt"));
-           
+
+            string mrt = HttpContext.Request.Query["mrt"];
+
+            if (mrt != null)
+            { 
+                report.Load(StiNetCoreHelper.MapPath(this, "Reports/"+mrt)); 
+            }
+
+            string xmlFile = HttpContext.Request.Query["xmlFile"];
+
+            report.Dictionary.Variables["xmlFile"].Value = xmlFile; // "XMLFile2.xml";
+            
+            // report.Load(StiNetCoreHelper.MapPath(this, "Reports/payments-preset.mrt"));
+
 
             return StiNetCoreViewer.GetReportResult(this, report);
         }

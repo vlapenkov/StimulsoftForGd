@@ -1,0 +1,27 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<customers>
+<customer id="П1">
+  <name>Покупатель 1 </name>
+  <sum>100 </sum>
+  <supplier>
+    <name>Поставщик 1</name>
+    <sum>100 </sum>
+     <contract>
+       <name>Договор 1 </name>
+       <sum>100 </sum>
+       </contract>
+    </supplier>
+  </customer>
+<customer id="П2">
+  <name>Покупатель 2 </name>
+  <sum>200 </sum>
+  <supplier>
+    <name>Поставщик 2</name>
+    <sum>200 </sum>
+    <contract>
+      <name>Договор 2 </name>
+      <sum>200 </sum>
+    </contract>
+  </supplier>
+</customer>
+  </customers>
