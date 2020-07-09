@@ -1,0 +1,3109 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<StiSerializer version="1.02" type="Net" application="StiReport">
+  <Dictionary Ref="1" type="Dictionary" isKey="true">
+    <BusinessObjects isList="true" count="0" />
+    <Databases isList="true" count="1">
+      <newsrt555 Ref="2" type="Stimulsoft.Report.Dictionary.StiXmlDatabase" isKey="true">
+        <Alias>newsrt555</Alias>
+        <Key>3098019da71942b9aa9b49dd6ad7e252</Key>
+        <Name>newsrt555</Name>
+        <PathData>resource://newsrt555</PathData>
+        <PathSchema />
+        <RelationDirection>ChildToParent</RelationDirection>
+        <XmlType>Xml</XmlType>
+      </newsrt555>
+    </Databases>
+    <DataSources isList="true" count="9">
+      <body Ref="3" type="DataTableSource" isKey="true">
+        <Alias>body</Alias>
+        <Columns isList="true" count="1">
+          <value>dog,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>62e5381241b64233b1f05e7afc92569b</Key>
+        <Name>body</Name>
+        <NameInSource>newsrt555.body</NameInSource>
+      </body>
+      <body_dog Ref="4" type="DataTableSource" isKey="true">
+        <Alias>body_dog</Alias>
+        <Columns isList="true" count="7">
+          <value>ORIGINAL,_x0040_id,_x0040_id,_x0040_id,System.String,fae75d2623c94bc5a6c9a362617a3ba5</value>
+          <value>ORIGINAL,_x0040_side1,_x0040_side1,_x0040_side1,System.String,cccee43522164c168bb603942eaab6f8</value>
+          <value>ORIGINAL,_x0040_side2,_x0040_side2,_x0040_side2,System.String,_x0030_1d3197f79bf45f1963277bda5958a62</value>
+          <value>ORIGINAL,_x0040_number,_x0040_number,_x0040_number,System.String,d2d8265d001e402ba16daee18eda74db</value>
+          <value>ORIGINAL,_x0040_date,_x0040_date,_x0040_date,System.String,febf625637004d2dbe241bf08b1faf58</value>
+          <value>ORIGINAL,ter,ter,ter,System.String,_x0031_50bb8b3a7464beb87e8fda774eb31da</value>
+          <value>ORIGINAL,relationId,relationId,relationId,System.String,fc42da7c675e453bbe3ebe425ed42a24</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>2c075e9b2ad443f29b8e3b96c3ebde13</Key>
+        <Name>body_dog</Name>
+        <NameInSource>newsrt555.body_dog</NameInSource>
+      </body_dog>
+      <body_dog_ter Ref="5" type="DataTableSource" isKey="true">
+        <Alias>body_dog_ter</Alias>
+        <Columns isList="true" count="5">
+          <value>ORIGINAL,_x0040_idter,_x0040_idter,_x0040_idter,System.String,_x0032_b1b32058ba8442f8f96dc55c7b99683</value>
+          <value>ORIGINAL,_x0040_name,_x0040_name,_x0040_name,System.String,a0f206f99d8342f9832ce040bb2ad60c</value>
+          <value>ORIGINAL,_x0040_reg,_x0040_reg,_x0040_reg,System.String,eba1af0a26a743bda1a5ceabe0f4a45c</value>
+          <value>ORIGINAL,object,object,object,System.String,_x0032_4ad3ec6dd3248adb8478d846f865a45</value>
+          <value>ORIGINAL,relationId,relationId,relationId,System.String,ba2068f017b04a7f86eb1c7f87d57c10</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>b72e5b5d4c5f43e684c4244081cf1083</Key>
+        <Name>body_dog_ter</Name>
+        <NameInSource>newsrt555.body_dog_ter</NameInSource>
+      </body_dog_ter>
+      <body_dog_ter_object Ref="6" type="DataTableSource" isKey="true">
+        <Alias>body_dog_ter_object</Alias>
+        <Columns isList="true" count="5">
+          <value>ORIGINAL,_x0040_idobj,_x0040_idobj,_x0040_idobj,System.String,_x0035_785301a8a7d4e60a5b0db33a4dd5a24</value>
+          <value>ORIGINAL,_x0040_name,_x0040_name,_x0040_name,System.String,f62bef59228a4080b698cd4522330adc</value>
+          <value>ORIGINAL,_x0040_ck,_x0040_ck,_x0040_ck,System.String,d8ae2306b00243099be469eff4552fdd</value>
+          <value>ORIGINAL,tp,tp,tp,System.String,_x0039_4e8eb3561624a6f97a5f43bd3188f7b</value>
+          <value>ORIGINAL,relationId,relationId,relationId,System.String,_x0031_b721b23a5b04f248be408e8a0d8b84d</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>96c14dad5f004d12b80e5e58d21cf9c1</Key>
+        <Name>body_dog_ter_object</Name>
+        <NameInSource>newsrt555.body_dog_ter_object</NameInSource>
+      </body_dog_ter_object>
+      <body_dog_ter_object_tp Ref="7" type="DataTableSource" isKey="true">
+        <Alias>body_dog_ter_object_tp</Alias>
+        <Columns isList="true" count="20">
+          <value>ORIGINAL,_x0040_idtp,_x0040_idtp,_x0040_idtp,System.String,_x0034_98f3c2584e14dfbb010adcd2ea1b6f1</value>
+          <value>ORIGINAL,_x0040_name,_x0040_name,_x0040_name,System.String,_x0031_2ad3e00b158474e8d8ae37d42ecd4ff</value>
+          <value>ORIGINAL,tp_es,tp_es,tp_es,System.String,_x0030_6e56247c1c54e9fb589c6db1a9f3dd4</value>
+          <value>ORIGINAL,tp_atp,tp_atp,tp_atp,System.String,e816afa1c56d45ae817420be1fcd13d8</value>
+          <value>ORIGINAL,tp_pmax,tp_pmax,tp_pmax,System.String,_x0039_f38a61a86184f84a916b66856e930df</value>
+          <value>ORIGINAL,tp_ppris,tp_ppris,tp_ppris,System.String,_x0035_c88178f658e4991a26c32c31f93df1b</value>
+          <value>ORIGINAL,tp_mile,tp_mile,tp_mile,System.String,d8ee9505dc014fb3bc9a8a5b22f9541b</value>
+          <value>ORIGINAL,tp_so,tp_so,tp_so,System.String,f2276d8474b44f4ea5041e1753173f24</value>
+          <value>ORIGINAL,tp_nadgn,tp_nadgn,tp_nadgn,System.String,_x0035_39ff666d53547588d0e13b3f36a63a6</value>
+          <value>ORIGINAL,tp_utarif,tp_utarif,tp_utarif,System.String,_x0032_92340a2d42a42eeb18a9c6d2106f035</value>
+          <value>ORIGINAL,tp_ugen,tp_ugen,tp_ugen,System.String,f445472d4cfe471aafbfdff01d1beb27</value>
+          <value>ORIGINAL,tp_ufact,tp_ufact,tp_ufact,System.String,_x0039_0a32f7366f94109afe72827e90c19a5</value>
+          <value>ORIGINAL,tp_gbp,tp_gbp,tp_gbp,System.String,_x0030_e6b7fd75d8f4ad6b554a914d511d0ed</value>
+          <value>ORIGINAL,tp_upc,tp_upc,tp_upc,System.String,_x0030_79f4f57a9df49078752ee7d81a2b093</value>
+          <value>ORIGINAL,tp_ots,tp_ots,tp_ots,System.String,_x0037_adbf3e54cd941b48e740ec4a423102c</value>
+          <value>ORIGINAL,tp_datmon,tp_datmon,tp_datmon,System.String,_x0039_6b47020d6064ab9ac68acd7ed5f4d24</value>
+          <value>ORIGINAL,tp_datdemon,tp_datdemon,tp_datdemon,System.String,_x0035_7362f634fe540c1b2baaa0bd62109c1</value>
+          <value>ORIGINAL,tp_znak,tp_znak,tp_znak,System.String,_x0037_557a8f3da644cf2a72de90319794bd2</value>
+          <value>ORIGINAL,ti,ti,ti,System.String,_x0036_d1022e0c691494eb12611a2fd4be957</value>
+          <value>ORIGINAL,relationId,relationId,relationId,System.String,_x0036_578aebe5ca84133be59b19ded9ee4b9</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>9aff71a349134337bc06f594073a9e98</Key>
+        <Name>body_dog_ter_object_tp</Name>
+        <NameInSource>newsrt555.body_dog_ter_object_tp</NameInSource>
+      </body_dog_ter_object_tp>
+      <body_dog_ter_object_tp_ti Ref="8" type="DataTableSource" isKey="true">
+        <Alias>body_dog_ter_object_tp_ti</Alias>
+        <Columns isList="true" count="13">
+          <value>_x0040_idti,System.String</value>
+          <value>_x0040_name,System.String</value>
+          <value>ti_es,System.String</value>
+          <value>ti_adop,System.String</value>
+          <value>ti_aiis,System.String</value>
+          <value>ti_ots,System.String</value>
+          <value>ti_role,System.String</value>
+          <value>ti_datmon,System.String</value>
+          <value>ti_datdemon,System.String</value>
+          <value>pu,System.String</value>
+          <value>tt,System.String</value>
+          <value>tn,System.String</value>
+          <value>relationId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>33c1e9d74e874f62a189a9326b1ab7aa</Key>
+        <Name>body_dog_ter_object_tp_ti</Name>
+        <NameInSource>newsrt555.body_dog_ter_object_tp_ti</NameInSource>
+      </body_dog_ter_object_tp_ti>
+      <body_dog_ter_object_tp_ti_pu Ref="9" type="DataTableSource" isKey="true">
+        <Alias>body_dog_ter_object_tp_ti_pu</Alias>
+        <Columns isList="true" count="5">
+          <value>pu_type,System.String</value>
+          <value>pu_class,System.String</value>
+          <value>pu_number,System.String</value>
+          <value>pu_gosreestr,System.String</value>
+          <value>relationId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>0b43c08dac044356ac61cafa6a0e9a5a</Key>
+        <Name>body_dog_ter_object_tp_ti_pu</Name>
+        <NameInSource>newsrt555.body_dog_ter_object_tp_ti_pu</NameInSource>
+      </body_dog_ter_object_tp_ti_pu>
+      <body_dog_ter_object_tp_ti_tn Ref="10" type="DataTableSource" isKey="true">
+        <Alias>body_dog_ter_object_tp_ti_tn</Alias>
+        <Columns isList="true" count="6">
+          <value>tn_type,System.String</value>
+          <value>tn_class,System.String</value>
+          <value>tn_ktt,System.String</value>
+          <value>tn_number,System.String</value>
+          <value>tn_gosreestr,System.String</value>
+          <value>relationId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>9f4ea4812366452eab0453c84ae4e0cf</Key>
+        <Name>body_dog_ter_object_tp_ti_tn</Name>
+        <NameInSource>newsrt555.body_dog_ter_object_tp_ti_tn</NameInSource>
+      </body_dog_ter_object_tp_ti_tn>
+      <body_dog_ter_object_tp_ti_tt Ref="11" type="DataTableSource" isKey="true">
+        <Alias>body_dog_ter_object_tp_ti_tt</Alias>
+        <Columns isList="true" count="6">
+          <value>tt_type,System.String</value>
+          <value>tt_class,System.String</value>
+          <value>ORIGINAL,tt_ktt,tt_ktt,tt_ktt,System.String,_x0035_82ce778cf3f4a4abf2837ddc725f9bc</value>
+          <value>tt_number,System.String</value>
+          <value>tt_gosreestr,System.String</value>
+          <value>relationId,System.String</value>
+        </Columns>
+        <Dictionary isRef="1" />
+        <Key>ee69484c57e04ed18b88e9548357e653</Key>
+        <Name>body_dog_ter_object_tp_ti_tt</Name>
+        <NameInSource>newsrt555.body_dog_ter_object_tp_ti_tt</NameInSource>
+      </body_dog_ter_object_tp_ti_tt>
+    </DataSources>
+    <Relations isList="true" count="7">
+      <DOG Ref="12" type="DataRelation" isKey="true">
+        <Alias>DOG</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="5" />
+        <Dictionary isRef="1" />
+        <Key>f787d47245ef4f69b4cb7b1aae32f600</Key>
+        <Name>DOG</Name>
+        <NameInSource>Связь</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ter</value>
+        </ParentColumns>
+        <ParentSource isRef="4" />
+      </DOG>
+      <TER Ref="13" type="DataRelation" isKey="true">
+        <Alias>TER</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="6" />
+        <Dictionary isRef="1" />
+        <Key>db122db1c3bf473db26ad9e53e3ced36</Key>
+        <Name>TER</Name>
+        <NameInSource>Связь3</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>object</value>
+        </ParentColumns>
+        <ParentSource isRef="5" />
+      </TER>
+      <OBJ Ref="14" type="DataRelation" isKey="true">
+        <Alias>OBJ</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="7" />
+        <Dictionary isRef="1" />
+        <Key>88dd161d87a6471f9b182d2de1514d98</Key>
+        <Name>OBJ</Name>
+        <NameInSource>Связь2</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>tp</value>
+        </ParentColumns>
+        <ParentSource isRef="6" />
+      </OBJ>
+      <PU Ref="15" type="DataRelation" isKey="true">
+        <Alias>PU</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>pu</value>
+        </ChildColumns>
+        <ChildSource isRef="8" />
+        <Dictionary isRef="1" />
+        <Key>1bccad009c3149589aaa4814b397c670</Key>
+        <Name>PU</Name>
+        <NameInSource>Связь5</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>relationId</value>
+        </ParentColumns>
+        <ParentSource isRef="9" />
+      </PU>
+      <TN Ref="16" type="DataRelation" isKey="true">
+        <Alias>TN</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>tn</value>
+        </ChildColumns>
+        <ChildSource isRef="8" />
+        <Dictionary isRef="1" />
+        <Key>6d112e45d4f6471d8c3d4fbae576daec</Key>
+        <Name>TN</Name>
+        <NameInSource>Связь6</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>relationId</value>
+        </ParentColumns>
+        <ParentSource isRef="10" />
+      </TN>
+      <TT Ref="17" type="DataRelation" isKey="true">
+        <Alias>TT</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>tt</value>
+        </ChildColumns>
+        <ChildSource isRef="8" />
+        <Dictionary isRef="1" />
+        <Key>a8fd65f33edd4b88a12cff11b26e2da2</Key>
+        <Name>TT</Name>
+        <NameInSource>Связь7</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>relationId</value>
+        </ParentColumns>
+        <ParentSource isRef="11" />
+      </TT>
+      <TP Ref="18" type="DataRelation" isKey="true">
+        <Alias>TP</Alias>
+        <ChildColumns isList="true" count="1">
+          <value>relationId</value>
+        </ChildColumns>
+        <ChildSource isRef="8" />
+        <Dictionary isRef="1" />
+        <Key>d6b2228d638d4961a6c6f68fb32068bb</Key>
+        <Name>TP</Name>
+        <NameInSource>Связь4</NameInSource>
+        <ParentColumns isList="true" count="1">
+          <value>ti</value>
+        </ParentColumns>
+        <ParentSource isRef="7" />
+      </TP>
+    </Relations>
+    <Report isRef="0" />
+    <Resources isList="true" count="1">
+      <value>Name=newsrt555, Alias=newsrt555, Type=Xml, Content=yRNFvZdR3Jb4U6kQGCujM9q7CJ4CqbsValju452gmEp0JPIcJMF8nx2F9R_x002B_oHE4mjPqCqGO7hM4WNk0Ef_x002F_jP639r5myN_x002B_bay4rxljgql8TeSo9rXfP7PVk4gEFCb_x002B_E7x9dDJs9Ywwt0noIwHGEBxkGyDuAVKvOriYxC8IEzbSRVzxedjvytOyr39lNfdCottHFYY_x002F_uWPav3zgFnUwhdQTX3yUZAT7YuBurz5uadx5MCt82TOWCjLlZhM74sGIkfX8_x002B_8NO1SGZrEZtJblH78cKNoMET4uu1pHbo7wEY8IrZMvsJu1yOqgPBcYVPvhFeq_x002F_4JaboZP12REMVSl5jy0qghM170FdUV23moswULksBJatHRVk9IhsfOhPmIVqt79e7HZy7zAFgCkNdKKmuKlOibYfwozeLW5La70bvg4nU1qWncGuG0jreCxEp_x002F_PpJn1JgQ0Bttz5_x002F_3fAzRhA7c0CzDO9hD46ILcqbiemSZ8PsK0oKU2x5E5x2bWl9nFnxiqLUrtOOaj9G7sIJ_x002B_1a3DYJ9bR1nkXzakcMplsoN4TYo6QSpx_x002B_Aomr6A5FWmimBc8apBTahZmSAtNba9o255ll2MxYMElyBmaj7KKQBI_x002F_4EaKcXxkeqHfVNuPRQ5_x002B_kycYtS6EWvt_x002F_wAcd4AwdkZylz5_x002B_kI5JHmteB_x002B_z7Wtbw_x002B_7LkEGmP84CqkRP4UaCIhUki3kcm6HDip10tC172_x002F_2PyzNbujFUiQYkkoRKISGGZIYVbXHjQo9WaBsdTiz0cFVBYjokFuICRp7uNHrdH_x002B_HpgAqTdSC3_x002F_yf2DVZkSQSI5Tr70LgYwZsFmY97vJuMJg_x002F_ehk69KoNfUXei7_x002F_qszMFUns_x002B_fJ29b4G0W5v5A34yP9GsoyT_x002F__x002F_3jkEZSY5FSDKefetsyfI_x002F_o_x002B_p_x002B_BnozEbEXMdXhEIZxL2T9oi7ynkZqFJG1OKjuT984BUS0zn7ytfOty_x002F_y_x002F_2rYG8rZtjoIr8UXgQWFadoZt2tVdbyCi_x002F_IvtH8QgC7_x002B_YyipwK6jrHBfb3jUXV9B7WdSmjsTa_x002F_FhRd9YR8e_x002B_MOQnPh8EfR63GkYmjG5iZ0HMa3VvZvOcqJrqW25_x002B_itXOs85lOtpHorCPz38V3xN8mfXTRMlKt2mnwhlzPCL_x002B_wGanVgrr8JCUir1oz33Ind0MDnYA_x002F_uzdVmivm9nu4JqJ7dkglG0G8I9O3_x002F_YbqQJTyZivoQJByUcFTTtZkBdf94oWzruZLHzlNKgVcG6hfpEApbUV_x002F_LR6Mn55PF6PHiAGFGMPeEPYMDkd7u6JDBPJNAeTOtw0SI4VzE7UKs4KNnoPPzZRA_x002F_VfcLz0lFzEW3NM5BuxbqR8v2sBn8psVr5VT_x002F_QsYXeFWfLdqiti89zhzZ8LzBQIJbdcDbK0SsAnOs2jY5SWl8sZd96ggnz7wAWuxTFLbsJjEgjOtpRkn4l5BMGgB0DNp_x002B_uNjCV9QSB4AmwLbop8CxpzQ2hlUWFK4a0q8Mwdl1Ns8SdO5U_x002F_7hLXzMyBuLYowngrBsjnojv08sjw49Nk7GeWUdX2x_x002F_yW4_x002F_PnW5QpCsw80p_x002B_irrx0RKnvvc_x002B_0dsdlKremUcD0S</value>
+    </Resources>
+    <Variables isList="true" count="0" />
+  </Dictionary>
+  <EngineVersion>EngineV2</EngineVersion>
+  <GlobalizationStrings isList="true" count="0" />
+  <Key>e13c450ceb2740879abf3aa6e85cb8c8</Key>
+  <MetaTags isList="true" count="0" />
+  <Pages isList="true" count="4">
+    <Page1 Ref="19" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="2">
+        <HeaderBand1 Ref="20" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,40,3.2</ClientRectangle>
+          <Components isList="true" count="31">
+            <Text1 Ref="21" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,1.4,0.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text1</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>№ 
+п/п</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text1>
+            <Text3 Ref="22" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>1,1.4,1.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text3</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Наименование
+территории</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text3>
+            <Text4 Ref="23" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>3.4,0.4,29.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text4</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Перечень точек поставки и точек измерений</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text4>
+            <Text5 Ref="24" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>4.6,1.4,1.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text5</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Наименование
+объекта</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text5>
+            <Text6 Ref="25" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>6.4,1.4,2,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text6</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Параметры
+объекта</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text6>
+            <Text7 Ref="26" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,2.6,39.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text7</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Договор энергоснабжения № {body_dog_ter_object_tp_ti.TP.OBJ.TER.DOG._number} между {body_dog_ter_object_tp_ti.TP.OBJ.TER.DOG._side1} и {body_dog_ter_object_tp_ti.TP.OBJ.TER.DOG._side2} от {body_dog_ter_object_tp_ti.TP.OBJ.TER.DOG._date}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text7>
+            <Text8 Ref="27" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>8.4,1.4,7.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text8</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Точки поставки</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text8>
+            <Text9 Ref="28" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>8.4,1.8,2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text9</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Наименование</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text9>
+            <Text10 Ref="29" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>10.4,1.8,3.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text10</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Параметры</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text10>
+            <Text11 Ref="30" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>13.6,1.8,1.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text11</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Дата
+включения</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text11>
+            <Text12 Ref="31" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>15.2,1.8,1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text12</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Знак</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text12>
+            <Text13 Ref="32" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>16.2,1.4,7.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text13</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Точки измерений</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text13>
+            <Text14 Ref="33" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>16.2,1.8,2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text14</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Наименование</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text14>
+            <Text15 Ref="34" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>18.2,1.8,3.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text15</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Параметры</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text15>
+            <Text16 Ref="35" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>21.4,1.8,1.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text16</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Дата
+монтажа</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text16>
+            <Text17 Ref="36" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>23,1.8,1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text17</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Роль</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text17>
+            <Text18 Ref="37" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>24,1.4,15.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text18</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Средства измерений</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text18>
+            <Text19 Ref="38" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>24,1.8,4.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text19</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Прибор учета</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text19>
+            <Text21 Ref="39" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>24,2.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text21</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Тип</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text21>
+            <Text22 Ref="40" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>25.6,2.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text22</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Номер</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text22>
+            <Text23 Ref="41" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>27.2,2.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text23</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Кл.точности</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text23>
+            <Text24 Ref="42" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>28.8,1.8,4.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text24</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Трансформатор тока</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text24>
+            <Text25 Ref="43" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>28.8,2.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text25</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Тип</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text25>
+            <Text26 Ref="44" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>30.4,2.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text26</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Номер</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text26>
+            <Text27 Ref="45" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>32,2.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text27</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Кл.точности</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text27>
+            <Text28 Ref="46" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>33.6,1.8,4.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text28</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Трансформатор напряжения</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text28>
+            <Text29 Ref="47" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>33.6,2.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text29</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Тип</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text29>
+            <Text30 Ref="48" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>35.2,2.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text30</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Номер</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text30>
+            <Text31 Ref="49" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>36.8,2.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text31</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Кл.точности</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text31>
+            <Text32 Ref="50" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>38.4,1.8,1.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text32</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Расчетный
+коэффициент</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text32>
+            <Text34 Ref="51" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>2.8,1.4,1.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text34</Name>
+              <Page isRef="19" />
+              <Parent isRef="20" />
+              <Text>Параметры
+территории</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text34>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand1</Name>
+          <Page isRef="19" />
+          <Parent isRef="19" />
+        </HeaderBand1>
+        <DataBand1 Ref="52" type="DataBand" isKey="true">
+          <Brush>NavajoWhite</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,4.4,40,2.6</ClientRectangle>
+          <Components isList="true" count="23">
+            <Text33 Ref="53" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,0,0.8,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text33</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{Line}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text33>
+            <Text2 Ref="54" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>1,0,1.8,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text2</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <ProcessingDuplicates>Merge</ProcessingDuplicates>
+              <Text>{body_dog_ter_object_tp_ti.TP.OBJ.TER._name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text2>
+            <Text35 Ref="55" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>2.8,0,1.8,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text35</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <ProcessingDuplicates>Merge</ProcessingDuplicates>
+              <Text>Регион: {body_dog_ter_object_tp_ti.TP.OBJ.TER._name}
+ID: {body_dog_ter_object_tp_ti.TP.OBJ.TER._idter}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text35>
+            <Text20 Ref="56" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>4.6,0,1.8,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text20</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <ProcessingDuplicates>Merge</ProcessingDuplicates>
+              <Text>{body_dog_ter_object_tp_ti.TP.OBJ._name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text20>
+            <Text36 Ref="57" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>6.4,0,1.8,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text36</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <ProcessingDuplicates>Merge</ProcessingDuplicates>
+              <Text>ID:{body_dog_ter_object_tp_ti.TP.OBJ._idobj}
+ЦК: {body_dog_ter_object_tp_ti.TP.OBJ._ck}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text36>
+            <Text37 Ref="58" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>8.2,0,2.2,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text37</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <ProcessingDuplicates>Merge</ProcessingDuplicates>
+              <Text>{body_dog_ter_object_tp_ti.TP._name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text37>
+            <Text38 Ref="59" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>10.4,0,3.2,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text38</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>Максимальная мощность:{body_dog_ter_object_tp_ti.TP.tp_pmax}
+Присоединенная мощность:{body_dog_ter_object_tp_ti.TP.tp_ppris}
+Сетвая организация:{body_dog_ter_object_tp_ti.TP.tp_so}
+Тарифный уровень напряжения:{body_dog_ter_object_tp_ti.TP.tp_utarif}
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text38>
+            <Text39 Ref="60" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>13.6,0,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text39</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.TP.tp_datmon}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text39>
+            <Text40 Ref="61" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>15.2,0,1,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text40</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.TP.tp_znak}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text40>
+            <Text41 Ref="62" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>16.2,0,2,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text41</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti._name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text41>
+            <Text42 Ref="63" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>18.2,0,3.2,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text42</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>Акт допуска:{body_dog_ter_object_tp_ti.ti_adop}
+Включние в АИИС КУЭ:{body_dog_ter_object_tp_ti.ti_aiis}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text42>
+            <Text43 Ref="64" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>21.4,0,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text43</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.ti_datmon}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text43>
+            <Text44 Ref="65" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>23,0,1,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text44</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.ti_role}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text44>
+            <Text45 Ref="66" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>24,0,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text45</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.PU.pu_type}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text45>
+            <Text46 Ref="67" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>25.6,0,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text46</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.PU.pu_number}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text46>
+            <Text47 Ref="68" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>27.2,0,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text47</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.PU.pu_class}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text47>
+            <Text48 Ref="69" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>28.8,0,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text48</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.TT.tt_type}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text48>
+            <Text49 Ref="70" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>30.4,0,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text49</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.TT.tt_number}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text49>
+            <Text50 Ref="71" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>32,0,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text50</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.TT.tt_class}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text50>
+            <Text51 Ref="72" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>33.6,0,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text51</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.TN.tn_type}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text51>
+            <Text52 Ref="73" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>35.2,0,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text52</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.TN.tn_number}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text52>
+            <Text53 Ref="74" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>36.8,0,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text53</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>{body_dog_ter_object_tp_ti.TN.tn_class}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text53>
+            <Text54 Ref="75" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>38.4,0,1.4,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text54</Name>
+              <Page isRef="19" />
+              <Parent isRef="52" />
+              <Text>Расчетный
+коэффициент</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text54>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>body_dog_ter_object_tp_ti</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand1</Name>
+          <Page isRef="19" />
+          <Parent isRef="19" />
+          <Sort isList="true" count="0" />
+        </DataBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>373bd3d028014c6a855421677a6faf2d</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page1</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>42</PageWidth>
+      <PaperSize>A3</PaperSize>
+      <Report isRef="0" />
+    </Page1>
+    <Page2 Ref="76" type="Page" isKey="true">
+      <Border>None;Black;2;Solid;False;4;Black</Border>
+      <Brush>Transparent</Brush>
+      <Components isList="true" count="4">
+        <PageFooterBand1 Ref="77" type="PageFooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,26.9,40,0.8</ClientRectangle>
+          <Components isList="true" count="3">
+            <Text111 Ref="78" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>18.6,-0.1,2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text111</Name>
+              <Page isRef="76" />
+              <Parent isRef="77" />
+              <Text>{PageNumber}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text111>
+            <Text113 Ref="79" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0.4,-0.1,2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text113</Name>
+              <Page isRef="76" />
+              <Parent isRef="77" />
+              <Text>{Today}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text113>
+            <Text114 Ref="80" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>2.4,-0.1,2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text114</Name>
+              <Page isRef="76" />
+              <Parent isRef="77" />
+              <Text>{Time}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text114>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>PageFooterBand1</Name>
+          <Page isRef="76" />
+          <Parent isRef="76" />
+        </PageFooterBand1>
+        <HeaderBand2 Ref="81" type="HeaderBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,0.4,40,3.6</ClientRectangle>
+          <Components isList="true" count="55">
+            <Text55 Ref="82" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,2,0.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text55</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>№ 
+п/п</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text55>
+            <Text57 Ref="83" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>3.4,0.4,29.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text57</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Перечень точек поставки и точек измерений</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text57>
+            <Text58 Ref="84" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>4.6,2,1.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text58</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Наименование
+объекта</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text58>
+            <Text59 Ref="85" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>6.4,2,2,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text59</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Параметры
+объекта</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text59>
+            <Text61 Ref="86" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>8.4,2,7.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text61</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Точки поставки</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text61>
+            <Text62 Ref="87" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>8.4,2.4,2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text62</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Наименование</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text62>
+            <Text63 Ref="88" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>10.4,2.4,3.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text63</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Параметры</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text63>
+            <Text64 Ref="89" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>13.6,2.4,1.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text64</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Дата
+включения</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text64>
+            <Text65 Ref="90" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>15.2,2.4,1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text65</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Знак</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text65>
+            <Text66 Ref="91" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>16.2,2,7.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text66</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Точки измерений</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text66>
+            <Text67 Ref="92" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>16.2,2.4,2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text67</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Наименование</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text67>
+            <Text68 Ref="93" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>18.2,2.4,3.2,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text68</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Параметры</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text68>
+            <Text69 Ref="94" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>21.4,2.4,1.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text69</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Дата
+монтажа</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text69>
+            <Text70 Ref="95" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>23,2.4,1,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text70</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Роль</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text70>
+            <Text71 Ref="96" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>24,2,15.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text71</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Средства измерений</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text71>
+            <Text72 Ref="97" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>24,2.4,4.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text72</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Прибор учета</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text72>
+            <Text73 Ref="98" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>24,2.8,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text73</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Тип</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text73>
+            <Text74 Ref="99" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>25.6,2.8,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text74</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Номер</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text74>
+            <Text75 Ref="100" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>27.2,2.8,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text75</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Кл.точности</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text75>
+            <Text76 Ref="101" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>28.8,2.4,4.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text76</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Трансформатор тока</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text76>
+            <Text77 Ref="102" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>28.8,2.8,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text77</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Тип</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text77>
+            <Text78 Ref="103" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>30.4,2.8,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text78</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Номер</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text78>
+            <Text79 Ref="104" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>32,2.8,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text79</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Кл.точности</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text79>
+            <Text80 Ref="105" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>33.6,2.4,4.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text80</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Трансформатор напряжения</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text80>
+            <Text81 Ref="106" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>33.6,2.8,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text81</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Тип</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text81>
+            <Text82 Ref="107" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>35.2,2.8,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text82</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Номер</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text82>
+            <Text83 Ref="108" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>36.8,2.8,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text83</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Кл.точности</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text83>
+            <Text84 Ref="109" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>38.4,2.4,1.4,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text84</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Расчетный
+коэффициент</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text84>
+            <Text85 Ref="110" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>2.8,2,1.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text85</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Параметры
+территории</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text85>
+            <Text60 Ref="111" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>LightGray</Brush>
+              <ClientRectangle>0.2,1.2,39.6,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text60</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Договор энергоснабжения № {body_dog_ter_object_tp_ti.TP.OBJ.TER.DOG._number} между {body_dog_ter_object_tp_ti.TP.OBJ.TER.DOG._side1} и {body_dog_ter_object_tp_ti.TP.OBJ.TER.DOG._side2} от {body_dog_ter_object_tp_ti.TP.OBJ.TER.DOG._date}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text60>
+            <Text112 Ref="112" type="Text" isKey="true">
+              <Brush>White</Brush>
+              <ClientRectangle>35.2,0,4.8,0.8</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text112</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Приложение №1 к Договору</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text112>
+            <Text115 Ref="113" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,3.2,0.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text115</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>1</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text115>
+            <Text116 Ref="114" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>1,3.2,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text116</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>2</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text116>
+            <Text117 Ref="115" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>2.8,3.2,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text117</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>3</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text117>
+            <Text118 Ref="116" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>4.6,3.2,1.8,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text118</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>4</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text118>
+            <Text119 Ref="117" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>6.4,3.2,2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text119</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>5</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text119>
+            <Text120 Ref="118" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>8.4,3.2,2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text120</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>6</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text120>
+            <Text121 Ref="119" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>10.4,3.2,3.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text121</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>7</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text121>
+            <Text122 Ref="120" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>13.6,3.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text122</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>8</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text122>
+            <Text123 Ref="121" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>15.2,3.2,1,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text123</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>9</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text123>
+            <Text124 Ref="122" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>16.2,3.2,2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text124</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>10</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text124>
+            <Text125 Ref="123" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>18.2,3.2,3.2,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text125</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>11</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text125>
+            <Text126 Ref="124" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>21.4,3.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text126</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>12</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text126>
+            <Text127 Ref="125" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>23,3.2,1,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text127</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>13</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text127>
+            <Text128 Ref="126" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>24,3.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text128</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>14</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text128>
+            <Text129 Ref="127" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>25.6,3.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text129</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>15</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text129>
+            <Text130 Ref="128" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>27.2,3.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text130</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>16</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text130>
+            <Text131 Ref="129" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>28.8,3.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text131</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>17</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text131>
+            <Text132 Ref="130" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>30.4,3.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text132</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>18</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text132>
+            <Text133 Ref="131" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>32,3.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text133</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>19</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text133>
+            <Text134 Ref="132" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>33.6,3.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text134</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>20</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text134>
+            <Text135 Ref="133" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>35.2,3.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text135</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>21</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text135>
+            <Text136 Ref="134" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>36.8,3.2,1.6,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text136</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>22</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text136>
+            <Text137 Ref="135" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>38.4,3.2,1.4,0.4</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text137</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>23</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text137>
+            <Text138 Ref="136" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>1,2,1.8,1.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7,Bold</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text138</Name>
+              <Page isRef="76" />
+              <Parent isRef="81" />
+              <Text>Наименование
+территории</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text138>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>HeaderBand2</Name>
+          <Page isRef="76" />
+          <Parent isRef="76" />
+        </HeaderBand2>
+        <DataBand2 Ref="137" type="DataBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <BusinessObjectGuid isNull="true" />
+          <ClientRectangle>0,4.8,40,3.2</ClientRectangle>
+          <Components isList="true" count="24">
+            <Text86 Ref="138" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>0.2,0.6,0.8,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text86</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{Line}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>SystemVariables</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text86>
+            <Text87 Ref="139" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>1,0.6,1.8,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text87</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TP.OBJ.TER._name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text87>
+            <Text88 Ref="140" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>2.8,0.6,1.8,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text88</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>Регион: {body_dog_ter_object_tp_ti.TP.OBJ.TER._name}
+ID: {body_dog_ter_object_tp_ti.TP.OBJ.TER._idter}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text88>
+            <Text89 Ref="141" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>4.6,0.6,1.8,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text89</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TP.OBJ._name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text89>
+            <Text90 Ref="142" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>6.4,0.6,1.8,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text90</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>ID:{body_dog_ter_object_tp_ti.TP.OBJ._idobj}
+ЦК: {body_dog_ter_object_tp_ti.TP.OBJ._ck}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text90>
+            <Text91 Ref="143" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[192:255:255]</Brush>
+              <ClientRectangle>8.2,0.6,2.2,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text91</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TP._name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text91>
+            <Text92 Ref="144" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[192:255:255]</Brush>
+              <ClientRectangle>10.4,0.6,3.2,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text92</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>Максимальная мощность:{body_dog_ter_object_tp_ti.TP.tp_pmax}
+Присоединенная мощность:{body_dog_ter_object_tp_ti.TP.tp_ppris}
+Сетвая организация:{body_dog_ter_object_tp_ti.TP.tp_so}
+Тарифный уровень напряжения:{body_dog_ter_object_tp_ti.TP.tp_utarif}
+</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text92>
+            <Text93 Ref="145" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[192:255:255]</Brush>
+              <ClientRectangle>13.6,0.6,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text93</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TP.tp_datmon}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text93>
+            <Text94 Ref="146" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>[192:255:255]</Brush>
+              <ClientRectangle>15.2,0.6,1,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text94</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TP.tp_znak}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text94>
+            <Text95 Ref="147" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>16.2,0.6,2,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text95</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti._name}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text95>
+            <Text96 Ref="148" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>18.2,0.6,3.2,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text96</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>Акт допуска:{body_dog_ter_object_tp_ti.ti_adop}
+Включние в АИИС КУЭ:{body_dog_ter_object_tp_ti.ti_aiis}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text96>
+            <Text97 Ref="149" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>21.4,0.6,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="1">
+                <value>body_dog_ter_object_tp_ti.ti_datmon,NotEqualTo,_x0036__x002F_29_x002F_2020,_x0036__x002F_29_x002F_2020,DateTime,Red,DarkOrange,Arial_x002C_8_x002C_Bold,True,False,,,All</value>
+              </Conditions>
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text97</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.ti_datmon}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text97>
+            <Text98 Ref="150" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>23,0.6,1,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text98</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.ti_role}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text98>
+            <Text99 Ref="151" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>24,0.6,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text99</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.PU.pu_type}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text99>
+            <Text100 Ref="152" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>25.6,0.6,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text100</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.PU.pu_number}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text100>
+            <Text101 Ref="153" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>27.2,0.6,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text101</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Restrictions>None</Restrictions>
+              <Text>{body_dog_ter_object_tp_ti.PU.pu_class}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text101>
+            <Text102 Ref="154" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>28.8,0.6,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text102</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TT.tt_type}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text102>
+            <Text103 Ref="155" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>30.4,0.6,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text103</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TT.tt_number}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text103>
+            <Text104 Ref="156" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>32,0.6,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text104</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TT.tt_class}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text104>
+            <Text105 Ref="157" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>33.6,0.6,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text105</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TN.tn_type}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text105>
+            <Text106 Ref="158" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>35.2,0.6,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text106</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TN.tn_number}</Text>
+              <TextBrush>Black</TextBrush>
+              <TextOptions>,,,,WordWrap=True,A=0</TextOptions>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text106>
+            <Text107 Ref="159" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>36.8,0.6,1.6,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text107</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TN.tn_class}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text107>
+            <Text108 Ref="160" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>38.4,0.6,1.4,2.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text108</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>Расчетный
+коэффициент</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text108>
+            <Text109 Ref="161" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>InactiveCaption</Brush>
+              <ClientRectangle>0.2,0,39.6,0.6</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text109</Name>
+              <Page isRef="76" />
+              <Parent isRef="137" />
+              <Text>{body_dog_ter_object_tp_ti.TP.OBJ.TER._name}</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>DataColumn</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text109>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <DataRelationName isNull="true" />
+          <DataSourceName>body_dog_ter_object_tp_ti</DataSourceName>
+          <Filters isList="true" count="0" />
+          <Name>DataBand2</Name>
+          <Page isRef="76" />
+          <Parent isRef="76" />
+          <Sort isList="true" count="0" />
+        </DataBand2>
+        <FooterBand1 Ref="162" type="FooterBand" isKey="true">
+          <Brush>Transparent</Brush>
+          <ClientRectangle>0,8.8,40,5</ClientRectangle>
+          <Components isList="true" count="1">
+            <Text110 Ref="163" type="Text" isKey="true">
+              <Border>All;Black;1;Solid;False;4;Black</Border>
+              <Brush>White</Brush>
+              <ClientRectangle>24,2.6,5.8,2.2</ClientRectangle>
+              <Conditions isList="true" count="0" />
+              <Font>Arial,7</Font>
+              <HorAlignment>Center</HorAlignment>
+              <Margins>0,0,0,0</Margins>
+              <Name>Text110</Name>
+              <Page isRef="76" />
+              <Parent isRef="162" />
+              <Text>Генеральный директор</Text>
+              <TextBrush>Black</TextBrush>
+              <Type>Expression</Type>
+              <VertAlignment>Center</VertAlignment>
+            </Text110>
+          </Components>
+          <Conditions isList="true" count="0" />
+          <Name>FooterBand1</Name>
+          <Page isRef="76" />
+          <Parent isRef="76" />
+        </FooterBand1>
+      </Components>
+      <Conditions isList="true" count="0" />
+      <Guid>73e4c40b59a946f5b631568eb9aeec29</Guid>
+      <Margins>1,1,1,1</Margins>
+      <Name>Page2</Name>
+      <Orientation>Landscape</Orientation>
+      <PageHeight>29.7</PageHeight>
+      <PageWidth>42</PageWidth>
+      <PaperSize>A3</PaperSize>
+      <Report isRef="0" />
+    </Page2>
+    <Dashboard1 Ref="164" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+      <BackColor>Transparent</BackColor>
+      <Components isList="true" count="2">
+        <Panel1 Ref="165" type="Stimulsoft.Dashboard.Components.Panel.StiPanelElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Beige</BackColor>
+          <ClientRectangle>0,40,1180,220</ClientRectangle>
+          <Components isList="true" count="5">
+            <PivotTable1 Ref="166" type="Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement" isKey="true">
+              <AltClientRectangle>0,0,0,0</AltClientRectangle>
+              <BackColor>23, 54, 93</BackColor>
+              <Border>All;Gray;1;Solid</Border>
+              <ClientRectangle>320,20,280,185</ClientRectangle>
+              <DataFilters isList="true" count="0" />
+              <Font>Arial,8,Bold| Underline</Font>
+              <ForeColor>Transparent</ForeColor>
+              <Guid>a2ed95038a9a4266adbc6e6b33effdbb</Guid>
+              <KeyMeter Ref="167" type="Stimulsoft.Dashboard.Components.ListBox.StiKeyListBoxMeter" isKey="true">
+                <Expression>[body_dog_ter_object_tp.@name]</Expression>
+                <Key>1ae98cef00a446479ef5550c3dee7355</Key>
+                <Label>@name</Label>
+              </KeyMeter>
+              <Margin>3,3,3,3</Margin>
+              <Name>PivotTable1</Name>
+              <NameMeter Ref="168" type="Stimulsoft.Dashboard.Components.ListBox.StiNameListBoxMeter" isKey="true">
+                <Expression>[body_dog_ter_object_tp.@name]</Expression>
+                <Key>39646fecaa4a4e0aa6ad0441e27eac83</Key>
+                <Label>@name</Label>
+              </NameMeter>
+              <Padding>5,5,5,5</Padding>
+              <Page isRef="164" />
+              <Parent isRef="165" />
+              <ParentKey>315f87c2b7e34081a76fa1bc35714134</ParentKey>
+              <Style>DarkGray</Style>
+              <Title Ref="169" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+                <BackColor>Transparent</BackColor>
+                <Font>Arial,11</Font>
+                <ForeColor>Transparent</ForeColor>
+                <Text>ТП в объектах</Text>
+              </Title>
+              <TransformActions isList="true" count="0" />
+              <TransformFilters isList="true" count="0" />
+              <TransformSorts isList="true" count="0" />
+            </PivotTable1>
+            <ListBox1 Ref="170" type="Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement" isKey="true">
+              <AltClientRectangle>0,0,0,0</AltClientRectangle>
+              <BackColor>15, 36, 62</BackColor>
+              <Border>All;Gray;1;Solid</Border>
+              <ClientRectangle>20,20,280,185</ClientRectangle>
+              <DataFilters isList="true" count="0" />
+              <Font>Arial,8,Bold| Underline</Font>
+              <ForeColor>Transparent</ForeColor>
+              <Guid>315f87c2b7e34081a76fa1bc35714134</Guid>
+              <KeyMeter Ref="171" type="Stimulsoft.Dashboard.Components.ListBox.StiKeyListBoxMeter" isKey="true">
+                <Expression>[body_dog_ter_object.@name]</Expression>
+                <Key>6f036543db404690802c79f55c8abc38</Key>
+                <Label>@name</Label>
+              </KeyMeter>
+              <Margin>3,3,3,3</Margin>
+              <Name>ListBox1</Name>
+              <NameMeter Ref="172" type="Stimulsoft.Dashboard.Components.ListBox.StiNameListBoxMeter" isKey="true">
+                <Expression>[body_dog_ter_object.@name]</Expression>
+                <Key>ab8b04e23040476bb01adb2189460490</Key>
+                <Label>@name</Label>
+              </NameMeter>
+              <Padding>5,5,5,5</Padding>
+              <Page isRef="164" />
+              <Parent isRef="165" />
+              <SelectionMode>Multi</SelectionMode>
+              <Style>DarkBlue</Style>
+              <Title Ref="173" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+                <BackColor>Transparent</BackColor>
+                <Font>Arial,11</Font>
+                <ForeColor>Transparent</ForeColor>
+                <Text>Объекты в договоре</Text>
+              </Title>
+              <TransformActions isList="true" count="0" />
+              <TransformFilters isList="true" count="0" />
+              <TransformSorts isList="true" count="0" />
+            </ListBox1>
+            <ListBox2 Ref="174" type="Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement" isKey="true">
+              <AltClientRectangle>0,0,0,0</AltClientRectangle>
+              <BackColor>84, 141, 212</BackColor>
+              <Border>All;[255:242:0];1;Solid</Border>
+              <ClientRectangle>620,20,280,185</ClientRectangle>
+              <DataFilters isList="true" count="0" />
+              <Font>Arial,8,Bold| Underline</Font>
+              <ForeColor>Transparent</ForeColor>
+              <Guid>a0e85fa521a0452f9cfe14d458a0cbb9</Guid>
+              <KeyMeter Ref="175" type="Stimulsoft.Dashboard.Components.ListBox.StiKeyListBoxMeter" isKey="true">
+                <Expression>[body_dog_ter_object_tp_ti.@name]</Expression>
+                <Key>f927e4913772441ab5b2f7d549898b07</Key>
+                <Label>@name</Label>
+              </KeyMeter>
+              <Margin>3,3,3,3</Margin>
+              <Name>ListBox2</Name>
+              <NameMeter Ref="176" type="Stimulsoft.Dashboard.Components.ListBox.StiNameListBoxMeter" isKey="true">
+                <Expression>[body_dog_ter_object_tp_ti.@name]</Expression>
+                <Key>9efa9314324846f190a5dbf20613047b</Key>
+                <Label>@name</Label>
+              </NameMeter>
+              <Padding>5,5,5,5</Padding>
+              <Page isRef="164" />
+              <Parent isRef="165" />
+              <ParentKey>a2ed95038a9a4266adbc6e6b33effdbb</ParentKey>
+              <Style>SlateGray</Style>
+              <Title Ref="177" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+                <BackColor>Transparent</BackColor>
+                <Font>Arial,11</Font>
+                <ForeColor>Transparent</ForeColor>
+                <Text>ТИ в ТП</Text>
+              </Title>
+              <TransformActions isList="true" count="0" />
+              <TransformFilters isList="true" count="0" />
+              <TransformSorts isList="true" count="0" />
+            </ListBox2>
+            <ListBox3 Ref="178" type="Stimulsoft.Dashboard.Components.ComboBox.StiComboBoxElement" isKey="true">
+              <AltClientRectangle>0,0,0,0</AltClientRectangle>
+              <BackColor>95, 73, 122</BackColor>
+              <Border>All;[255:242:0];1;Solid</Border>
+              <ClientRectangle>920,20,240,40</ClientRectangle>
+              <DataFilters isList="true" count="0" />
+              <Font>Arial,8</Font>
+              <ForeColor>Transparent</ForeColor>
+              <Guid>e564948550ec45059be9b644623a5f99</Guid>
+              <KeyMeter Ref="179" type="Stimulsoft.Dashboard.Components.ComboBox.StiKeyComboBoxMeter" isKey="true">
+                <Expression>[body_dog_ter.@name]</Expression>
+                <Key>a2b341ef0a20428981bdbfd72a3a36e3</Key>
+                <Label>@name</Label>
+              </KeyMeter>
+              <Margin>3,3,3,3</Margin>
+              <Name>ListBox3</Name>
+              <NameMeter Ref="180" type="Stimulsoft.Dashboard.Components.ComboBox.StiNameComboBoxMeter" isKey="true">
+                <Expression>[body_dog_ter.@name]</Expression>
+                <Key>32ac1cbd0de4409882c0b06221b1180d</Key>
+                <Label>@name</Label>
+              </NameMeter>
+              <Padding>5,5,5,5</Padding>
+              <Page isRef="164" />
+              <Parent isRef="165" />
+              <SelectionMode>Multi</SelectionMode>
+              <Style>SlateGray</Style>
+              <TransformActions isList="true" count="0" />
+              <TransformFilters isList="true" count="0" />
+              <TransformSorts isList="true" count="0" />
+            </ListBox3>
+            <ListBox4 Ref="181" type="Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement" isKey="true">
+              <AltClientRectangle>0,0,0,0</AltClientRectangle>
+              <BackColor>128, 100, 162</BackColor>
+              <Border>All;Gray;1;Solid</Border>
+              <ClientRectangle>920,60,240,140</ClientRectangle>
+              <DataFilters isList="true" count="0" />
+              <Font>Arial,8,Bold</Font>
+              <ForeColor>Transparent</ForeColor>
+              <Guid>db69c1dadeab4f699558aee467d99a8d</Guid>
+              <KeyMeter Ref="182" type="Stimulsoft.Dashboard.Components.ListBox.StiKeyListBoxMeter" isKey="true">
+                <Expression>[body_dog_ter_object_tp.@name]</Expression>
+                <Key>c12f8e91ce624b07aa3130aa645c7e56</Key>
+                <Label>@name</Label>
+              </KeyMeter>
+              <Margin>3,3,3,3</Margin>
+              <Name>ListBox4</Name>
+              <NameMeter Ref="183" type="Stimulsoft.Dashboard.Components.ListBox.StiNameListBoxMeter" isKey="true">
+                <Expression>[body_dog_ter_object_tp.@name]</Expression>
+                <Key>eacb3ac78c334643b38374b20a029d39</Key>
+                <Label>@name</Label>
+              </NameMeter>
+              <Padding>5,5,5,5</Padding>
+              <Page isRef="164" />
+              <Parent isRef="165" />
+              <ParentKey>e564948550ec45059be9b644623a5f99</ParentKey>
+              <Style>DarkGray</Style>
+              <Title Ref="184" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+                <BackColor>Transparent</BackColor>
+                <Font>Arial,11</Font>
+                <ForeColor>Transparent</ForeColor>
+                <Text>ТП в объектах</Text>
+                <Visible>False</Visible>
+              </Title>
+              <TransformActions isList="true" count="0" />
+              <TransformFilters isList="true" count="0" />
+              <TransformSorts isList="true" count="0" />
+            </ListBox4>
+          </Components>
+          <Guid>8712cd63926540eb9b6118c604f76eff</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Panel1</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="164" />
+          <Parent isRef="164" />
+        </Panel1>
+        <Text56 Ref="185" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>20,0,1140,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>a63c5fe26a04427192cc77e865ade553</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text56</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="164" />
+          <Parent isRef="164" />
+          <Text>&lt;font face="Arial" size="12"&gt;&lt;text-align="Center"&gt;Интерактивная фиговина для просмотра ТИ и ТП в зависимости от объекта или территории&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="186" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Текст</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text56>
+      </Components>
+      <Guid>65c204234ab6494ba0c10d18b01841f0</Guid>
+      <Height>750</Height>
+      <Name>Dashboard1</Name>
+      <Report isRef="0" />
+      <Style>AliceBlue</Style>
+    </Dashboard1>
+    <Dashboard2 Ref="187" type="Stimulsoft.Dashboard.Components.StiDashboard" isKey="true">
+      <BackColor>Transparent</BackColor>
+      <Components isList="true" count="5">
+        <Text139 Ref="188" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>40,0,1140,40</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>0e3e5b08c192454b9e31ac97d16ead7a</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text139</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="187" />
+          <Parent isRef="187" />
+          <Text>&lt;font face="Arial" size="12"&gt;&lt;text-align="Center"&gt;Интерактивная фиговина для просмотра ТИ и ТП в зависимости от объекта в виде таблицы&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="189" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Текст</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text139>
+        <Table1 Ref="190" type="Stimulsoft.Dashboard.Components.Table.StiTableElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>15, 36, 62</BackColor>
+          <Border>All;Gray;1;Solid</Border>
+          <ClientRectangle>200,40,960,185</ClientRectangle>
+          <Columns isList="true" count="7">
+            <Item174 Ref="191" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>[body_dog_ter.@name]</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>7f03403c37b2493eb7a0f792b0f60904</Key>
+              <Label>@name</Label>
+            </Item174>
+            <Item175 Ref="192" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>[body_dog_ter_object.@name]</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>c0b3ad7734f04e9d840571e9f95b22cf</Key>
+              <Label>@name</Label>
+            </Item175>
+            <Item176 Ref="193" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>[body_dog_ter_object_tp.@name]</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>8a58202b2d814550b6c5bea57dfbecc5</Key>
+              <Label>@name</Label>
+            </Item176>
+            <Item177 Ref="194" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>[body_dog_ter_object_tp_ti.@name]</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>a0fd4853ff9d4052a8c20a22a1768478</Key>
+              <Label>@name</Label>
+            </Item177>
+            <Item178 Ref="195" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>body_dog_ter_object_tp_ti_pu.pu_type</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>3e1307a30f6c40b9b58e6acd0d0a7497</Key>
+              <Label>pu_type</Label>
+            </Item178>
+            <Item179 Ref="196" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>body_dog_ter_object_tp_ti_tn.tn_type</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>ca55ff759b9345e8bb1ffed998537c71</Key>
+              <Label>tn_type</Label>
+            </Item179>
+            <Item180 Ref="197" type="Stimulsoft.Dashboard.Components.Table.StiDimensionColumn" isKey="true">
+              <Expression>body_dog_ter_object_tp_ti_tt.tt_type</Expression>
+              <ForeColor>Transparent</ForeColor>
+              <Key>f7098aadb18a4a42954a947faf80dbff</Key>
+              <Label>tt_type</Label>
+            </Item180>
+          </Columns>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,10,Bold| Underline</Font>
+          <FooterFont>Arial,10</FooterFont>
+          <FooterForeColor>Transparent</FooterForeColor>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>d9633256f06344ef94c753490b4b5c72</Guid>
+          <HeaderFont>Arial,10</HeaderFont>
+          <HeaderForeColor>Transparent</HeaderForeColor>
+          <Margin>3,3,3,3</Margin>
+          <Name>Table1</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="187" />
+          <Parent isRef="187" />
+          <Style>DarkBlue</Style>
+          <Title Ref="198" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Объекты в договоре</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+          <UserFilters isList="true" count="0" />
+          <UserSorts isList="true" count="0" />
+        </Table1>
+        <ListBox7 Ref="199" type="Stimulsoft.Dashboard.Components.ListBox.StiListBoxElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>15, 36, 62</BackColor>
+          <Border>All;Gray;1;Solid</Border>
+          <ClientRectangle>0,40,200,185</ClientRectangle>
+          <DataFilters isList="true" count="0" />
+          <Font>Arial,8,Bold| Underline</Font>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>cc48386b863546b59978716b8ec9bbaf</Guid>
+          <KeyMeter Ref="200" type="Stimulsoft.Dashboard.Components.ListBox.StiKeyListBoxMeter" isKey="true">
+            <Expression>[body_dog_ter_object.@name]</Expression>
+            <Key>6f036543db404690802c79f55c8abc38</Key>
+            <Label>@name</Label>
+          </KeyMeter>
+          <Margin>3,3,3,3</Margin>
+          <Name>ListBox7</Name>
+          <NameMeter Ref="201" type="Stimulsoft.Dashboard.Components.ListBox.StiNameListBoxMeter" isKey="true">
+            <Expression>[body_dog_ter_object.@name]</Expression>
+            <Key>ab8b04e23040476bb01adb2189460490</Key>
+            <Label>@name</Label>
+          </NameMeter>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="187" />
+          <Parent isRef="187" />
+          <SelectionMode>Multi</SelectionMode>
+          <Style>DarkBlue</Style>
+          <Title Ref="202" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Объекты в договоре</Text>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+        </ListBox7>
+        <PivotTable2 Ref="203" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotTableElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <Border>All;Gray;1;Solid</Border>
+          <ClientRectangle>80,280,900,200</ClientRectangle>
+          <Columns isList="true" count="2">
+            <Item183 Ref="204" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn" isKey="true">
+              <Expression>[body_dog_ter.@name]</Expression>
+              <Key>8865d9b5a5f14f4e80cbd6f96dedd975</Key>
+              <Label>@name</Label>
+              <TopN Ref="205" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+            </Item183>
+            <Item184 Ref="206" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotColumn" isKey="true">
+              <Expression>[body_dog_ter_object.@name]</Expression>
+              <Key>ab7c172b01f747c8885c7288138f1d48</Key>
+              <Label>@name</Label>
+              <TopN Ref="207" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+            </Item184>
+          </Columns>
+          <DataFilters isList="true" count="0" />
+          <Guid>6921142996314a7c9114f9d4ecefb1e3</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>PivotTable2</Name>
+          <Padding>5,5,5,5</Padding>
+          <Page isRef="187" />
+          <Parent isRef="187" />
+          <PivotTableConditions isList="true" count="0" />
+          <Rows isList="true" count="1">
+            <Item185 Ref="208" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotRow" isKey="true">
+              <Expression>[body_dog_ter_object_tp.@name]</Expression>
+              <Key>22893f82fbe044929cbd9d0b08a14158</Key>
+              <Label>@name</Label>
+              <TopN Ref="209" type="Stimulsoft.Data.Engine.StiDataTopN" isKey="true" />
+            </Item185>
+          </Rows>
+          <Summaries isList="true" count="1">
+            <Item186 Ref="210" type="Stimulsoft.Dashboard.Components.PivotTable.StiPivotSummary" isKey="true">
+              <Expression>Count([body_dog_ter_object_tp.@name])</Expression>
+              <Key>2e12eadaa7cb483e9205cb5cab96f026</Key>
+              <Label>@name</Label>
+            </Item186>
+          </Summaries>
+          <Title Ref="211" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Индикатор</Text>
+            <Visible>False</Visible>
+          </Title>
+          <TransformActions isList="true" count="0" />
+          <TransformFilters isList="true" count="0" />
+          <TransformSorts isList="true" count="0" />
+        </PivotTable2>
+        <Text140 Ref="212" type="Stimulsoft.Dashboard.Components.Text.StiTextElement" isKey="true">
+          <AltClientRectangle>0,0,0,0</AltClientRectangle>
+          <BackColor>Transparent</BackColor>
+          <ClientRectangle>680,300,280,160</ClientRectangle>
+          <ForeColor>Transparent</ForeColor>
+          <Guid>a11eb5666a074bad836330403e0295e7</Guid>
+          <Margin>3,3,3,3</Margin>
+          <Name>Text140</Name>
+          <Padding>0,0,0,0</Padding>
+          <Page isRef="187" />
+          <Parent isRef="187" />
+          <Text>&lt;font face="Arial" size="28"&gt;&lt;text-align="Center"&gt;&lt;b&gt;&lt;font-color="#C00000"&gt;Просто сводная табличка&lt;br /&gt;
+по количеству ТП в &lt;br /&gt;
+разрезе регионов&lt;br /&gt;
+с доп. фильтром&lt;br /&gt;
+по объектам&lt;/font-color&gt;&lt;/b&gt;&lt;/text-align&gt;&lt;/font&gt;</Text>
+          <Title Ref="213" type="Stimulsoft.Dashboard.Components.StiTitle" isKey="true">
+            <BackColor>Transparent</BackColor>
+            <Font>Arial,11</Font>
+            <ForeColor>Transparent</ForeColor>
+            <Text>Текст</Text>
+            <Visible>False</Visible>
+          </Title>
+        </Text140>
+      </Components>
+      <Guid>526bd55d42764dc6b3f045dea26d9026</Guid>
+      <Name>Dashboard2</Name>
+      <Report isRef="0" />
+    </Dashboard2>
+  </Pages>
+  <ReferencedAssemblies isList="true" count="8">
+    <value>System.Dll</value>
+    <value>System.Drawing.Dll</value>
+    <value>System.Windows.Forms.Dll</value>
+    <value>System.Data.Dll</value>
+    <value>System.Xml.Dll</value>
+    <value>Stimulsoft.Controls.Dll</value>
+    <value>Stimulsoft.Base.Dll</value>
+    <value>Stimulsoft.Report.Dll</value>
+  </ReferencedAssemblies>
+  <ReportAlias>Report</ReportAlias>
+  <ReportChanged>7/1/2020 10:40:14 PM</ReportChanged>
+  <ReportCreated>6/28/2020 10:31:15 PM</ReportCreated>
+  <ReportFile>C:\Users\vlape\source\repos\StimulsoftForGd\StimulsoftForGd\Reports/app1.mrt</ReportFile>
+  <ReportGuid>6ed6bc5f2224426abe6ec3be942c59a3</ReportGuid>
+  <ReportName>Report</ReportName>
+  <ReportUnit>Centimeters</ReportUnit>
+  <ReportVersion>2020.3.2.0</ReportVersion>
+  <Script>using System;
+using System.Drawing;
+using System.Windows.Forms;
+using System.Data;
+using Stimulsoft.Controls;
+using Stimulsoft.Base.Drawing;
+using Stimulsoft.Report;
+using Stimulsoft.Report.Dialogs;
+using Stimulsoft.Report.Components;
+
+namespace Reports
+{
+    public class Report : Stimulsoft.Report.StiReport
+    {
+        public Report()        {
+            this.InitializeComponent();
+        }
+
+        #region StiReport Designer generated code - do not modify
+		#endregion StiReport Designer generated code - do not modify
+    }
+}
+</Script>
+  <ScriptLanguage>CSharp</ScriptLanguage>
+  <Styles isList="true" count="0" />
+</StiSerializer>
