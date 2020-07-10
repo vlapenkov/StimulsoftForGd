@@ -20,7 +20,8 @@ namespace StimulsoftForGd.Controllers
 
         public IActionResult Index()
         {
-            return RedirectToAction("Index", "MyDesigner", new {settings="app3" });
+            return RedirectToAction("Index", "MyViewer", new {settingsId="app4" , dataId= "data2" });
+            //settingsId = app4 & dataId = data2
         }
 
         public IActionResult Privacy()

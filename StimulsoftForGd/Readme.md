@@ -9,3 +9,7 @@ FakeController - endpoint который генерит данные (dataByPeri
 
 Через MyDesignerController можно донастроить переменные и стили
 MyViewerController отображает данные 
+
+
+Работает отчет с загруженными данными (пока settings = app1changed)
+http://localhost:5000/myviewer?settingsId=app4&dataId=data2
