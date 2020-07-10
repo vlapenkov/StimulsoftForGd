@@ -21,14 +21,13 @@ namespace WebApi1.Controllers
 
         }
 
-        [HttpGet]
-        // [Produces("application/octet-stream")]
-        public async Task<byte[]> GetSettings(string hash)
+        [HttpGet]        
+        public async Task<byte[]> GetSettings(string id)
         {
 
-            if (hash == null) throw new ArgumentException($" {hash} пустой");
-            var settings = await _dbContext.ReportSettings.FirstOrDefaultAsync(p => p.Id == hash);
-            if (settings == null) throw new ArgumentException($"Настройки с ключом {hash} не найдены");
+            if (id == null) throw new ArgumentException($" id пустой");
+            var settings = await _dbContext.ReportSettings.FirstOrDefaultAsync(p => p.Id == id);
+            if (settings == null) throw new ArgumentException($"Настройки с ключом {id} не найдены");
             return settings.FileBody;
          //   return new FileContentResult(settings.FileBody, "application/octet-stream");
         }

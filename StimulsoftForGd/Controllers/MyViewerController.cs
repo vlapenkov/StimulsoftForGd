@@ -1,7 +1,7 @@
 ﻿using Microsoft.AspNetCore.Mvc;
 using Models;
 using Newtonsoft.Json;
-
+using Shared.Interfaces;
 using Stimulsoft.Report;
 using Stimulsoft.Report.Mvc;
 using System;
@@ -14,29 +14,60 @@ namespace Edit_Report_in_the_Designer.Controllers
 {
     public class MyViewerController :Controller
 {
+        IReportSettingsService _settingsService;
 
+        public MyViewerController(IReportSettingsService settingsService)
+        {
+            _settingsService = settingsService;
+        }
         public IActionResult Index()
         {
             return View();
         }
 
-        public IActionResult GetReport()
+        //public IActionResult GetReport()
+        //{
+        //    StiReport report = new StiReport();
+
+        //    string mrt = HttpContext.Request.Query["mrt"];
+
+        //    if (mrt != null)
+        //    { 
+        //        report.Load(StiNetCoreHelper.MapPath(this, "Reports/"+mrt)); 
+        //    }
+
+        //    string xmlFile = HttpContext.Request.Query["xmlFile"];
+
+        //    report.Dictionary.Variables["xmlFile"].Value = xmlFile; // "XMLFile2.xml";
+            
+            
+
+
+        //    return StiNetCoreViewer.GetReportResult(this, report);
+        //}
+
+        public async Task<IActionResult> GetReport()
         {
+           // var text = await _settingsService.GetSettings("app4");
             StiReport report = new StiReport();
 
-            string mrt = HttpContext.Request.Query["mrt"];
+            // получаем настройки
+            string mrt = HttpContext.Request.Query["settingsId"];
 
             if (mrt != null)
-            { 
-                report.Load(StiNetCoreHelper.MapPath(this, "Reports/"+mrt)); 
+            {
+                var settings = await _settingsService.GetSettings(mrt);
+
+                report.Load(settings);
             }
 
-            string xmlFile = HttpContext.Request.Query["xmlFile"];
+            // получаем данные
+            string xmlFile = HttpContext.Request.Query["dataId"];
 
             report.Dictionary.Variables["xmlFile"].Value = xmlFile; // "XMLFile2.xml";
-            
-            // report.Load(StiNetCoreHelper.MapPath(this, "Reports/payments-preset.mrt"));
 
+            // http://localhost:5000/myviewer?settingsId=app4&dataId=newsrt555.xml
+            //// http://localhost:5000/myviewer?settingsId=app4&dataId=data2
 
             return StiNetCoreViewer.GetReportResult(this, report);
         }

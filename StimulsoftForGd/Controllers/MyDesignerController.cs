@@ -39,62 +39,36 @@ namespace Edit_Report_in_the_Designer.Controllers
         }
 
 
-
-
-        private async Task<byte[]> GetURLContentsAsync(string url)
-        {
-            // The downloaded resource ends up in the variable named content.
-            var content = new MemoryStream();
-
-            // Initialize an HttpWebRequest for the current URL.
-            var webReq = (HttpWebRequest)WebRequest.Create(url);
-
-            // Send the request to the Internet resource and wait for
-            // the response.
-            using (WebResponse response = await webReq.GetResponseAsync())
-            {
-                // Get the data stream that is associated with the specified url.
-                using (Stream responseStream = response.GetResponseStream())
-                {
-                    await responseStream.CopyToAsync(content);
-                }
-            }
-
-            // Return the result as a byte array.
-            return content.ToArray();
-
-        }
+        
 
         public async Task<IActionResult> GetReport()
         {
 
-            byte[] result1=  System.IO.File.ReadAllBytes(StiNetCoreHelper.MapPath(this, "Reports/app1.mrt"));
+            byte[] result1=  System.IO.File.ReadAllBytes(StiNetCoreHelper.MapPath(this, "Reports/data/newsrt555.xml"));
             string base64Str = Convert.ToBase64String(result1);
             
 
 
-            StiReport report = new StiReport();
+           StiReport report = new StiReport();
 
+          //  var id = HttpContext.Request.Query["settings"];
 
+          //  //var result = await GetURLContentsAsync("http://localhost:5100/api/settings/getsettings?hash=app3");
+            var text= await _settingsService.GetSettings("app4");
+            
 
-            //var result = await GetURLContentsAsync("http://localhost:5100/api/settings/getsettings?hash=app3");
-           var result= await _settingsService.GetSettings("app3");
+          //  //  report.Load(StiNetCoreHelper.MapPath(this, "Reports/payments-preset.mrt"));
+          //  //  report.Load(StiNetCoreHelper.MapPath(this, "Reports/Report_fromXml.mrt"));
+          //  try
+          //  {
+          //      report.Load(result);
+          //    //  report.Load(StiNetCoreHelper.MapPath(this, "Reports/app1.mrt"));
+          //  }
+          //  catch (Exception e)
 
-
-
-
-            //  report.Load(StiNetCoreHelper.MapPath(this, "Reports/payments-preset.mrt"));
-            //  report.Load(StiNetCoreHelper.MapPath(this, "Reports/Report_fromXml.mrt"));
-            try
-            {
-                report.Load(result);
-              //  report.Load(StiNetCoreHelper.MapPath(this, "Reports/app1.mrt"));
-            }
-            catch (Exception e)
-
-            {
-                Console.WriteLine(e);
-            }
+          //  {
+          //      Console.WriteLine(e);
+          //  }
 
             return StiNetCoreDesigner.GetReportResult(this, report);
 

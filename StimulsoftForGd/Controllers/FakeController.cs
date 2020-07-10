@@ -3,10 +3,12 @@ using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Models;
 using Newtonsoft.Json;
+using Shared.Interfaces;
 using Stimulsoft.Report.Mvc;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
 namespace Edit_Report_in_the_Designer.Controllers
@@ -16,9 +18,15 @@ namespace Edit_Report_in_the_Designer.Controllers
     /// </summary>
     public class FakeController :Controller
 {
-       
-       
-            public async Task<IEnumerable<AccrualsPaymentsNodeDto>> Index(DateTime? sDate, int? id)
+
+        IReportDataService _reportDataService;
+
+        public FakeController(IReportDataService reportDataService)
+        {
+            _reportDataService = reportDataService;
+        }
+
+        public async Task<IEnumerable<AccrualsPaymentsNodeDto>> Index(DateTime? sDate, int? id)
             {
 
           
@@ -43,6 +51,22 @@ namespace Edit_Report_in_the_Designer.Controllers
             var xml = System.IO.File.ReadAllText(path);
 
             return Ok(xml);
+        }
+
+        /// <summary>
+        /// Для тестов с xml от Михаила xmlFile=data2
+        /// </summary>
+        /// <returns></returns>
+        public async Task<IActionResult> Xml2()
+        {
+        //http://localhost:5000/Fake/Xml2
+            var xmlFile = Request.Query["xmlFile"].ToString();
+
+          var bytesData=  await _reportDataService.GetData(xmlFile);
+            // string stringData = Convert.ToBase64String(byteData);
+            string stringData = Encoding.UTF8.GetString(bytesData, 0, bytesData.Length);
+
+            return Ok(stringData);
         }
 
 

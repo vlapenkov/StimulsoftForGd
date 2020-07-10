@@ -11,7 +11,7 @@ namespace Shared.Interfaces
         Task AddSettings(ReportSettingsDto settingsDto);
 
         [Get("/api/settings/GetSettings")]
-        Task<byte[]> GetSettings(string hash);
+        Task<byte[]> GetSettings(string id);
 
         [Put("/api/settings/UpdateSettings")]
         Task UpdateSettings(ReportSettingsDto settingsDto);

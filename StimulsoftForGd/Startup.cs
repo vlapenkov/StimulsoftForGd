@@ -27,6 +27,7 @@ namespace StimulsoftForGd
             services.AddControllersWithViews();
             var baseAddress = new Uri(Configuration["Services:WebApi1"]);
             services.AddRefitClient<IReportSettingsService>().ConfigureHttpClient(c => c.BaseAddress = baseAddress);
+            services.AddRefitClient<IReportDataService>().ConfigureHttpClient(c => c.BaseAddress = baseAddress);
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

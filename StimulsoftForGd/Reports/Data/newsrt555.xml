@@ -1,0 +1,188 @@
+<?xml version="1.0"?>
+<body>
+<dog id="1111" side1="ТНЭ" side2="ОСТ" number="12345" date="01/01/2020">
+	<ter idter="t1" name="Брянская область" reg="Брянская область">
+		<object idobj="o1" name="НПС Брянск1" ck="5">
+			<tp idtp="2323" name="ПС 110/35/6 кВ Прибой ЗРУ 6 кВ яч. 10">
+		<tp_es>4333</tp_es>
+		<tp_atp>АТП №5 от 01.01.2020</tp_atp>
+		<tp_pmax>15</tp_pmax>
+		<tp_ppris>10</tp_ppris>
+		<tp_mile>нет</tp_mile>
+		<tp_so>МРСК Центра Брянскэнерго</tp_so>
+		<tp_nadgn>3</tp_nadgn>
+		<tp_utarif>ВН</tp_utarif>
+		<tp_ugen>нет</tp_ugen>
+		<tp_ufact>6 кВ</tp_ufact>
+		<tp_gbp>тратата </tp_gbp>
+		<tp_upc>110 кВ</tp_upc>
+		<tp_ots>Транснефть Дружба</tp_ots>
+		<tp_datmon>01.01.2020</tp_datmon>
+		<tp_datdemon>01.01.2050</tp_datdemon>
+		<tp_znak>+</tp_znak>
+			<ti idti="2336" name="ЗРУ 6 кВ яч. 10">
+			<ti_es>1234</ti_es>
+			<ti_adop>Акт допуска 3</ti_adop>
+			<ti_aiis>да</ti_aiis>
+			<ti_ots>Транснефть Дружба</ti_ots>
+			<ti_role>ОИП</ti_role>
+			<ti_datmon>01.01.2020</ti_datmon>
+			<ti_datdemon>01.01.2050</ti_datdemon>
+			<pu>
+			<pu_type>A1802RALQ-P4GBDW-4</pu_type>
+			<pu_class>0,2S/0,5</pu_class>
+			<pu_number>01219541</pu_number>
+			<pu_gosreestr>31857-06</pu_gosreestr>
+			</pu>
+			<tt>
+			<tt_type>ТГФМ-110</tt_type>
+			<tt_class>0,2S</tt_class>
+			<tt_ktt>200/1</tt_ktt>
+			<tt_number>6017; 6021; 6029</tt_number>
+			<tt_gosreestr>36672-08</tt_gosreestr>
+			</tt>
+			<tn>
+			<tn_type>НАМИ-110 УХЛ1</tn_type>
+			<tn_class>0,2</tn_class>
+			<tn_ktt>=110000/v3/100/v3</tn_ktt>
+			<tn_number>5857; 5846; 5867</tn_number>
+			<tn_gosreestr>24218-08</tn_gosreestr>
+			</tn>
+			</ti>
+		</tp>
+			<tp idtp="2324" name="ПС 110/35/6 кВ Прибой ЗРУ 6 кВ яч. 11">
+		<tp_es>4334</tp_es>
+		<tp_atp>АТП №55 от 01.01.2020</tp_atp>
+		<tp_pmax>16</tp_pmax>
+		<tp_ppris>11</tp_ppris>
+		<tp_mile>нет</tp_mile>
+		<tp_so>МРСК Центра Брянскэнерго</tp_so>
+		<tp_nadgn>3</tp_nadgn>
+		<tp_utarif>ВН</tp_utarif>
+		<tp_ugen>нет</tp_ugen>
+		<tp_ufact>6 кВ</tp_ufact>
+		<tp_gbp>тратата2 </tp_gbp>
+		<tp_upc>110 кВ</tp_upc>
+		<tp_ots>Транснефть Дружба</tp_ots>
+		<tp_datmon>01.01.2020</tp_datmon>
+		<tp_datdemon>01.01.2050</tp_datdemon>
+		<tp_znak>+</tp_znak>
+			<ti idti="2338" name="ЗРУ 6 кВ яч. 11">
+			<ti_es>1212</ti_es>
+			<ti_adop>Акт допуска 3</ti_adop>
+			<ti_aiis>да</ti_aiis>
+			<ti_ots>Транснефть Дружба</ti_ots>
+			<ti_role>ОИП</ti_role>
+			<ti_datmon>01.01.2020</ti_datmon>
+			<ti_datdemon>01.01.2050</ti_datdemon>
+			<pu>
+			<pu_type>A1802RALQ-P4GBDW-4</pu_type>
+			<pu_class>0,2S/0,5</pu_class>
+			<pu_number>01219542</pu_number>
+			<pu_gosreestr>31857-06</pu_gosreestr>
+			</pu>
+			<tt>
+			<tt_type>ТГФМ-110</tt_type>
+			<tt_class>0,2S</tt_class>
+			<tt_ktt>200/1</tt_ktt>
+			<tt_number>6016; 6044; 6055</tt_number>
+			<tt_gosreestr>36672-08</tt_gosreestr>
+			</tt>
+			<tn>
+			<tn_type>НАМИ-110 УХЛ1</tn_type>
+			<tn_class>0,2</tn_class>
+			<tn_ktt>=110000/v3/100/v3</tn_ktt>
+			<tn_number>5891; 5856; 5547</tn_number>
+			<tn_gosreestr>24218-08</tn_gosreestr>
+			</tn>
+			</ti>
+		</tp>
+	</object>
+</ter>
+	<ter idter="t2" name="Тверская область" reg="Тверская область">
+		<object idobj="o2" name="НПС Тверь1" ck="3">
+			<tp idtp="2325" name="ПС 110/35/6 кВ Тверь ЗРУ 6 кВ яч. 12">
+			<tp_es>4335</tp_es>
+			<tp_atp>АТП №555 от 01.01.2020</tp_atp>
+			<tp_pmax>17</tp_pmax>
+			<tp_ppris>12</tp_ppris>
+			<tp_mile>нет</tp_mile>
+			<tp_so>МРСК Центра Тверьэнерго</tp_so>
+			<tp_nadgn>3</tp_nadgn>
+			<tp_utarif>ВН</tp_utarif>
+			<tp_ugen>нет</tp_ugen>
+			<tp_ufact>6 кВ</tp_ufact>
+			<tp_gbp>тратата3 </tp_gbp>
+			<tp_upc>110 кВ</tp_upc>
+			<tp_ots>Транснефть Дружба</tp_ots>
+			<tp_datmon>01.01.2020</tp_datmon>
+			<tp_datdemon>01.01.2050</tp_datdemon>
+			<tp_znak>+</tp_znak>
+				<ti idti="2395" name="ЗРУ 6 кВ яч. 9">
+				<ti_es>1276</ti_es>
+				<ti_adop>Акт допуска 5</ti_adop>
+				<ti_aiis>да</ti_aiis>
+				<ti_ots>Транснефть Дружба</ti_ots>
+				<ti_role>ОИП</ti_role>
+				<ti_datmon>01.01.2020</ti_datmon>
+				<ti_datdemon>01.01.2050</ti_datdemon>
+				<pu>
+				<pu_type>A1802RALQ-P4GBDW-4</pu_type>
+				<pu_class>0,2S/0,5</pu_class>
+				<pu_number>01219672</pu_number>
+				<pu_gosreestr>31857-06</pu_gosreestr>
+				</pu>
+				<tt>
+				<tt_type>ТГФМ-110</tt_type>
+				<tt_class>0,2S</tt_class>
+				<tt_ktt>200/1</tt_ktt>
+				<tt_number>6316; 6099; 5455</tt_number>
+				<tt_gosreestr>36672-08</tt_gosreestr>
+				</tt>
+				<tn>
+				<tn_type>НАМИ-110 УХЛ1</tn_type>
+				<tn_class>0,2</tn_class>
+				<tn_ktt>=110000/v3/100/v3</tn_ktt>
+				<tn_number>5561; 3232 5497</tn_number>
+				<tn_gosreestr>24218-08</tn_gosreestr>
+				</tn>
+				</ti>
+				<ti idti="2356" name="ЗРУ 6 кВ яч. 12">
+				<ti_es>1276</ti_es>
+				<ti_adop>Акт допуска 6</ti_adop>
+				<ti_aiis>да</ti_aiis>
+				<ti_ots>Транснефть Дружба</ti_ots>
+				<ti_role>ОИП</ti_role>
+				<ti_datmon>01.01.2020</ti_datmon>
+				<ti_datdemon>01.01.2050</ti_datdemon>
+				<pu>
+				<pu_type>A1802RALQ-P4GBDW-4</pu_type>
+				<pu_class>0,2S/0,5</pu_class>
+				<pu_number>012146972</pu_number>
+				<pu_gosreestr>31857-06</pu_gosreestr>
+				</pu>
+				<tt>
+				<tt_type>ТГФМ-110</tt_type>
+				<tt_class>0,2S</tt_class>
+				<tt_ktt>200/1</tt_ktt>
+				<tt_number>6516; 6599; 5995</tt_number>
+				<tt_gosreestr>36672-08</tt_gosreestr>
+				</tt>
+				<tn>
+				<tn_type>НАМИ-110 УХЛ1</tn_type>
+				<tn_class>0,2</tn_class>
+				<tn_ktt>=110000/v3/100/v3</tn_ktt>
+				<tn_number>5561; 4632 5887</tn_number>
+				<tn_gosreestr>24218-08</tn_gosreestr>
+				</tn>
+				</ti>
+			</tp>
+		</object>
+</ter>
+</dog>
+</body>
+
+
+
+
+
