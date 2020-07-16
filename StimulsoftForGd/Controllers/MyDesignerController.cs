@@ -3,6 +3,7 @@ using Microsoft.AspNetCore.Authentication;
 using Microsoft.AspNetCore.Mvc;
 using Models;
 using Newtonsoft.Json;
+using Shared;
 using Shared.Interfaces;
 using Stimulsoft.Base;
 using Stimulsoft.Report;
@@ -44,8 +45,8 @@ namespace Edit_Report_in_the_Designer.Controllers
         public async Task<IActionResult> GetReport()
         {
 
-            byte[] result1=  System.IO.File.ReadAllBytes(StiNetCoreHelper.MapPath(this, "Reports/data/newsrt555.xml"));
-            string base64Str = Convert.ToBase64String(result1);
+            //byte[] result1=  System.IO.File.ReadAllBytes(StiNetCoreHelper.MapPath(this, "Reports/data/newsrt555.xml"));
+            //string base64Str = Convert.ToBase64String(result1);
             
 
 
@@ -54,10 +55,10 @@ namespace Edit_Report_in_the_Designer.Controllers
           //  var id = HttpContext.Request.Query["settings"];
 
           //  //var result = await GetURLContentsAsync("http://localhost:5100/api/settings/getsettings?hash=app3");
-            var text= await _settingsService.GetSettings("app4");
+          //  var text= await _settingsService.GetSettings("app4");
             
 
-          //  //  report.Load(StiNetCoreHelper.MapPath(this, "Reports/payments-preset.mrt"));
+           // report.Load( "C:\\app1\\app1\\settings2.xml");
           //  //  report.Load(StiNetCoreHelper.MapPath(this, "Reports/Report_fromXml.mrt"));
           //  try
           //  {
@@ -105,9 +106,12 @@ namespace Edit_Report_in_the_Designer.Controllers
 
             var reportName = requestParams.Designer.FileName;
             
-            string json = report.SaveToString();
+            string settingsText = report.SaveToString();
 
+            System.IO.File.WriteAllText("C:\\app1\\app1\\settings1.xml", settingsText);
+            var newsettingsText = new SettingsTransformer().Transform(settingsText);
             // Completion of the report saving with message dialog box
+            System.IO.File.WriteAllText("C:\\app1\\app1\\settings2.xml", newsettingsText);
 
             return StiNetCoreDesigner.SaveReportResult(this, "Some message after saving");
         }
