@@ -29,7 +29,9 @@ namespace Edit_Report_in_the_Designer.Controllers
         public async Task<IEnumerable<AccrualsPaymentsNodeDto>> Index(DateTime? sDate, int? id)
             {
 
-          
+          //  if(Request.Headers["User-Agent"][0].Contains("Chrome"))
+           //     throw new NotImplementedException();
+
             var path = "Reports/Data/DataByPeriod.json";
             if (sDate.HasValue && sDate.Value.Year==2019)  path = "Reports/Data/DataByPeriod2.json";
             

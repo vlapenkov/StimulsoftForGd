@@ -4,8 +4,10 @@
     <TargetFramework>netcoreapp3.1</TargetFramework>
   </PropertyGroup>
   <ItemGroup>    
-    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2020.3.2" />
-    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2020.3.2" />
+    <!--<PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2020.4.2" />-->
+    <!--<PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2020.4.2" /> -->
+    <PackageReference Include="Stimulsoft.Reports.Web.NetCore" Version="2021.2.1" />
+    <PackageReference Include="Stimulsoft.Dashboards.Web.NetCore" Version="2021.2.1" />
     <PackageReference Include="refit" Version="5.1.67" />
     <PackageReference Include="Refit.HttpClientFactory" Version="5.1.67" />
   </ItemGroup>

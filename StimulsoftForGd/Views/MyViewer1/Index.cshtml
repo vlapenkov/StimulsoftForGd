@@ -1,0 +1,31 @@
+﻿
+@using Stimulsoft.Report.Mvc;
+@using Stimulsoft.Report.Web;
+
+@{
+    ViewBag.Title = "Index";
+}
+
+
+
+@Html.StiNetCoreViewer(new StiNetCoreViewerOptions()
+{
+    Actions =
+    {
+        GetReport = "GetReport",
+        ViewerEvent = "ViewerEvent"
+    },
+    Appearance =
+    {
+        FullScreenMode = true
+    },
+    Toolbar =
+    {
+        ShowFullScreenButton = false,
+        DisplayMode = StiToolbarDisplayMode.Separated
+    },
+    Server = { 
+    AllowAutoUpdateCookies =false
+    },
+    Localization = "Localization/ru.xml"
+})
